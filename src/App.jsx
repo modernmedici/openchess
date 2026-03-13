@@ -11,7 +11,7 @@ const STARTING_FEN = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
 
 export default function App() {
   const [selectedOpening, setSelectedOpening] = useState(openings[0])
-  const { speak, isMuted, toggleMute } = useVoice()
+  const { speak, tick, isMuted, toggleMute } = useVoice()
 
   const {
     stepIndex,
@@ -23,7 +23,7 @@ export default function App() {
     goNext,
     goBack,
     toggleAutoPlay,
-  } = useOpening(selectedOpening, speak, isMuted)
+  } = useOpening(selectedOpening, speak, tick, isMuted)
 
   // Track previous FEN for move highlighting
   const prevFen = stepIndex > 0

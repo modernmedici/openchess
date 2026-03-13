@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 
 const STARTING_FEN = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
 
-export function useOpening(opening, speak, isMuted) {
+export function useOpening(opening, speak, tick, isMuted) {
   const [stepIndex, setStepIndex] = useState(-1) // -1 = starting position
   const [isPlaying, setIsPlaying] = useState(false)
   const timerRef = useRef(null)
@@ -21,6 +21,11 @@ export function useOpening(opening, speak, isMuted) {
     }
   }
 
+  function playMove(moveIndex) {
+    tick()
+    if (!isMuted) speak(opening.moves[moveIndex].commentary)
+  }
+
   const currentFen = stepIndex === -1
     ? STARTING_FEN
     : opening.moves[stepIndex].fen
@@ -33,12 +38,13 @@ export function useOpening(opening, speak, isMuted) {
     if (!canGoNext) return
     const next = stepIndex + 1
     setStepIndex(next)
-    if (!isMuted) speak(opening.moves[next].commentary)
+    playMove(next)
   }
 
   function goBack() {
     if (!canGoBack) return
     setStepIndex(prev => prev - 1)
+    tick()
   }
 
   function toggleAutoPlay() {
@@ -47,11 +53,10 @@ export function useOpening(opening, speak, isMuted) {
       clearTimer()
     } else {
       setIsPlaying(true)
-      // kick off immediately then schedule
       if (canGoNext) {
         const next = stepIndex + 1
         setStepIndex(next)
-        if (!isMuted) speak(opening.moves[next].commentary)
+        playMove(next)
       }
       timerRef.current = setInterval(() => {
         setStepIndex(prev => {
@@ -61,7 +66,7 @@ export function useOpening(opening, speak, isMuted) {
             clearTimer()
             return prev
           }
-          if (!isMuted) speak(opening.moves[next].commentary)
+          playMove(next)
           return next
         })
       }, 4000)
