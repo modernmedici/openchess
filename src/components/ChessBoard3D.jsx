@@ -90,14 +90,15 @@ export default function ChessBoard3D({ fen, prevFen }) {
       camera={{ position: [0, 8, 8], fov: 45 }}
       style={{ width: '100%', height: '100%' }}
     >
-      <ambientLight intensity={0.6} />
+      <ambientLight intensity={0.5} />
       <directionalLight
-        position={[5, 10, 5]}
-        intensity={1.2}
+        position={[6, 12, 6]}
+        intensity={1.4}
         castShadow
-        shadow-mapSize={[1024, 1024]}
+        shadow-mapSize={[2048, 2048]}
       />
-      <directionalLight position={[-5, 8, -5]} intensity={0.4} />
+      <directionalLight position={[-4, 6, -6]} intensity={0.5} />
+      <pointLight position={[0, 6, 0]} intensity={0.3} color="#fff8e7" />
 
       <Board highlightSquares={highlight} />
 
