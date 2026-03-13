@@ -58,7 +58,7 @@ export default function App() {
 
         {/* Center — 3D board */}
         <main className="flex-1 relative bg-zinc-950">
-          <ChessBoard3D fen={currentFen} prevFen={prevFen} />
+          <ChessBoard3D fen={currentFen} prevFen={prevFen} moveKey={stepIndex} />
           <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-xs text-zinc-600 pointer-events-none">
             Drag to rotate · Scroll to zoom
           </div>
