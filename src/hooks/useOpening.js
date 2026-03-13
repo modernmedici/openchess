@@ -32,7 +32,9 @@ export function useOpening(opening, speak, tick, isMuted) {
   // Chain: play tick + commentary for moveIndex, then if auto-playing advance
   const playMove = useCallback((moveIndex, chain = false) => {
     tick()
-    speak(opening.moves[moveIndex].commentary, {
+    const audioPath = `/audio/${opening.id}-${moveIndex}.wav`
+    speak(audioPath, {
+      fallbackText: opening.moves[moveIndex].commentary,
       onEnd: () => {
         if (!chain || !isPlayingRef.current) return
         const next = moveIndex + 1

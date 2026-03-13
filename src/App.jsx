@@ -11,7 +11,7 @@ const STARTING_FEN = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
 
 export default function App() {
   const [selectedOpening, setSelectedOpening] = useState(openings[0])
-  const { speak, tick, isMuted, toggleMute, loadingProgress } = useVoice()
+  const { speak, tick, isMuted, toggleMute } = useVoice()
 
   const {
     stepIndex,
@@ -43,14 +43,7 @@ export default function App() {
             <p className="text-xs text-zinc-500">3D Chess Opening Tutor</p>
           </div>
         </div>
-        <div className="flex items-center gap-3">
-          {loadingProgress > 0 && loadingProgress < 100 && (
-            <span className="text-xs text-zinc-400 animate-pulse">
-              Loading voice model… {loadingProgress}%
-            </span>
-          )}
-          <VoiceToggle isMuted={isMuted} onToggle={toggleMute} />
-        </div>
+        <VoiceToggle isMuted={isMuted} onToggle={toggleMute} />
       </header>
 
       {/* Main layout */}
