@@ -352,6 +352,7 @@ export const openings = [
 
   {
     id: 'french-exchange',
+    group: 'Semi-Open Games',
     name: 'French Exchange',
     description: "White exchanges pawns on d5, creating a symmetrical structure that often leads to simplified, equal positions.",
     moves: [
@@ -368,6 +369,7 @@ export const openings = [
 
   {
     id: 'caro-kann-defense',
+    group: 'Semi-Open Games',
     name: 'Caro-Kann Defense',
     description: "A solid and reliable defense where Black answers e4 with c6, preparing d5 and a sturdy pawn structure.",
     moves: [
@@ -384,6 +386,7 @@ export const openings = [
 
   {
     id: 'caro-kann-advance',
+    group: 'Semi-Open Games',
     name: 'Caro-Kann Advance',
     description: "White pushes e5, gaining central space and restricting Black's development, leading to a strategic battle over the pawn chain.",
     moves: [
@@ -400,6 +403,7 @@ export const openings = [
 
   {
     id: 'caro-kann-exchange',
+    group: 'Semi-Open Games',
     name: 'Caro-Kann Exchange',
     description: "White exchanges on d5, leading to a symmetrical position with equal play but limited winning chances.",
     moves: [
@@ -416,6 +420,7 @@ export const openings = [
 
   {
     id: 'scandinavian-defense',
+    group: 'Semi-Open Games',
     name: 'Scandinavian Defense',
     description: "Black immediately challenges e4 with d5, leading to an asymmetrical early queen deployment on move 2.",
     moves: [
@@ -432,6 +437,7 @@ export const openings = [
 
   {
     id: 'alekhine-defense',
+    group: 'Semi-Open Games',
     name: 'Alekhine Defense',
     description: "Black invites White to chase the knight across the board with pawn advances, hoping to overextend White's position.",
     moves: [
@@ -448,6 +454,7 @@ export const openings = [
 
   {
     id: 'pirc-defense',
+    group: 'Semi-Open Games',
     name: 'Pirc Defense',
     description: "Black allows White a strong center and fianchettoes the king's bishop, planning to undermine White's pawns from the flanks.",
     moves: [
@@ -464,6 +471,7 @@ export const openings = [
 
   {
     id: 'modern-defense',
+    group: 'Semi-Open Games',
     name: 'Modern Defense',
     description: "Black immediately fianchettoes the king's bishop with g6 and Bg7, allowing White to build any center they choose.",
     moves: [
@@ -481,6 +489,7 @@ export const openings = [
   // Closed / Semi-Closed Games
   {
     id: 'queens-gambit-accepted',
+    group: 'Closed Games',
     name: "Queen's Gambit Accepted",
     description: "Black captures the c4 pawn, accepting the gambit and fighting for equality with active piece play.",
     moves: [
@@ -497,6 +506,7 @@ export const openings = [
 
   {
     id: 'slav-defense',
+    group: 'Closed Games',
     name: 'Slav Defense',
     description: "Black supports d5 with c6 instead of e6, keeping the light-squared bishop free for active development.",
     moves: [
@@ -513,6 +523,7 @@ export const openings = [
 
   {
     id: 'nimzo-indian-defense',
+    group: 'Indian Defenses',
     name: 'Nimzo-Indian Defense',
     description: "Black pins the c3 knight with Bb4 to prevent e4, one of the most theoretically rich and strategically complex defenses.",
     moves: [
@@ -529,6 +540,7 @@ export const openings = [
 
   {
     id: 'queens-indian-defense',
+    group: 'Indian Defenses',
     name: "Queen's Indian Defense",
     description: "Black fianchettoes the queen's bishop to counter White's central control, creating a solid hypermodern structure.",
     moves: [
@@ -545,6 +557,7 @@ export const openings = [
 
   {
     id: 'grunfeld-defense',
+    group: 'Indian Defenses',
     name: 'Grünfeld Defense',
     description: "Black allows White to build a strong pawn center then attacks it immediately with pieces, a true hypermodern masterpiece.",
     moves: [
@@ -561,6 +574,7 @@ export const openings = [
 
   {
     id: 'benko-gambit',
+    group: 'Indian Defenses',
     name: 'Benko Gambit',
     description: "Black sacrifices a pawn on b5 for long-term queenside pressure and open files that are very difficult to neutralize.",
     moves: [
@@ -577,6 +591,7 @@ export const openings = [
 
   {
     id: 'dutch-defense',
+    group: 'Dutch & Flank d4',
     name: 'Dutch Defense',
     description: "Black answers d4 with f5, fighting for the e4 square and setting up a kingside attack while accepting a weakened kingside.",
     moves: [
@@ -593,6 +608,7 @@ export const openings = [
 
   {
     id: 'trompowsky-attack',
+    group: 'Closed Games',
     name: 'Trompowsky Attack',
     description: "White plays Bg5 on move 2, attacking the f6 knight early and avoiding mainstream Indian defenses.",
     moves: [
@@ -609,6 +625,7 @@ export const openings = [
 
   {
     id: 'english-opening',
+    group: 'Flank & Irregular',
     name: 'English Opening',
     description: "White opens with c4, the English Opening, seeking queenside expansion and transposing into many different structures.",
     moves: [
@@ -625,6 +642,7 @@ export const openings = [
 
   {
     id: 'reti-opening',
+    group: 'Flank & Irregular',
     name: 'Réti Opening',
     description: "White opens with Nf3 and g3, developing the kingside pieces and controlling the center from afar with a fianchettoed bishop.",
     moves: [
@@ -641,6 +659,7 @@ export const openings = [
 
   {
     id: 'birds-opening',
+    group: 'Flank & Irregular',
     name: "Bird's Opening",
     description: "White opens with f4, the Bird's Opening, claiming the e5 square and preparing a kingside attack with an unorthodox pawn structure.",
     moves: [
@@ -657,6 +676,7 @@ export const openings = [
 
   {
     id: 'sicilian-najdorf',
+    group: 'Semi-Open Games',
     name: 'Sicilian Najdorf',
     description: "The most popular Sicilian variation — Black plays a6 to gain queenside space and flexibility while fighting for the initiative.",
     moves: [
@@ -673,6 +693,7 @@ export const openings = [
 
   {
     id: 'sicilian-dragon',
+    group: 'Semi-Open Games',
     name: 'Sicilian Dragon',
     description: "Black fianchettoes the kingside bishop on g7, creating the 'Dragon' — one of the sharpest and most analyzed openings in chess.",
     moves: [
@@ -689,6 +710,7 @@ export const openings = [
 
   {
     id: 'sicilian-scheveningen',
+    group: 'Semi-Open Games',
     name: 'Sicilian Scheveningen',
     description: "Black builds a flexible pawn structure with d6 and e6, keeping options open while fighting for the center.",
     moves: [
@@ -705,6 +727,7 @@ export const openings = [
 
   {
     id: 'catalan-opening',
+    group: 'Indian Defenses',
     name: 'Catalan Opening',
     description: "White combines the Queen's Gambit with a kingside fianchetto, creating powerful long-diagonal pressure against Black's position.",
     moves: [
