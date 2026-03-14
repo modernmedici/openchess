@@ -29,7 +29,7 @@ const compiled = source.map((opening) => {
     return { san: m.san, fen: chess.fen(), commentary: m.commentary };
   });
   console.log(`  [OK] ${opening.id} (${moves.length} moves)`);
-  return { id: opening.id, name: opening.name, description: opening.description, moves };
+  return { id: opening.id, group: opening.group, name: opening.name, description: opening.description, moves };
 });
 
 if (errors > 0) {
