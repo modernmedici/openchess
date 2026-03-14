@@ -8,6 +8,7 @@ export const openings = [
 
   {
     id: 'ruy-lopez',
+    group: 'Open Games',
     name: 'Ruy Lopez',
     description: "One of the oldest and most classical openings, controlling the center while pressuring Black's e5 pawn.",
     moves: [
@@ -24,6 +25,7 @@ export const openings = [
 
   {
     id: 'italian-game',
+    group: 'Open Games',
     name: 'Italian Game',
     description: 'A classical opening aiming for rapid development and control of the center with the bishop on c4.',
     moves: [
@@ -40,6 +42,7 @@ export const openings = [
 
   {
     id: 'sicilian-defense',
+    group: 'Semi-Open Games',
     name: 'Sicilian Defense',
     description: 'The most popular chess opening at all levels. Black fights for the center asymmetrically, leading to rich dynamic play.',
     moves: [
@@ -56,6 +59,7 @@ export const openings = [
 
   {
     id: 'queens-gambit',
+    group: 'Closed Games',
     name: "Queen's Gambit",
     description: 'A classical opening where White offers a pawn to gain central control and rapid development.',
     moves: [
@@ -72,6 +76,7 @@ export const openings = [
 
   {
     id: 'kings-indian-defense',
+    group: 'Indian Defenses',
     name: "King's Indian Defense",
     description: "A hypermodern defense where Black allows White to build a big center and then attacks it from the flanks.",
     moves: [
@@ -88,6 +93,7 @@ export const openings = [
 
   {
     id: 'london-system',
+    group: 'Closed Games',
     name: 'London System',
     description: "A solid, systematic opening where White builds a reliable setup with d4, Bf4, and e3, regardless of Black's responses.",
     moves: [
@@ -107,6 +113,7 @@ export const openings = [
   // Open Games (1.e4 e5)
   {
     id: 'petrov-defense',
+    group: 'Open Games',
     name: 'Petrov Defense',
     description: "Also called the Russian Game, Black immediately counter-attacks e4 rather than defending e5, leading to symmetrical and solid positions.",
     moves: [
@@ -123,6 +130,7 @@ export const openings = [
 
   {
     id: 'kings-gambit',
+    group: 'Open Games',
     name: "King's Gambit",
     description: "One of the most romantic openings in chess — White sacrifices a pawn on move 2 for rapid development and a fierce attack.",
     moves: [
@@ -139,6 +147,7 @@ export const openings = [
 
   {
     id: 'vienna-game',
+    group: 'Open Games',
     name: 'Vienna Game',
     description: "White develops the queen's knight early, preparing a flexible attack with f4 or the immediate Vienna Gambit.",
     moves: [
@@ -155,6 +164,7 @@ export const openings = [
 
   {
     id: 'bishops-opening',
+    group: 'Open Games',
     name: "Bishop's Opening",
     description: "White develops the king's bishop to c4 on move 2, targeting the vulnerable f7 square and keeping flexible options.",
     moves: [
@@ -171,6 +181,7 @@ export const openings = [
 
   {
     id: 'four-knights-game',
+    group: 'Open Games',
     name: 'Four Knights Game',
     description: "Both sides develop both knights before any pawns move beyond the initial e4/e5, leading to a rich strategic middlegame.",
     moves: [
@@ -187,6 +198,7 @@ export const openings = [
 
   {
     id: 'scotch-game',
+    group: 'Open Games',
     name: 'Scotch Game',
     description: "White opens the center immediately with d4, leading to open, dynamic positions with early piece activity.",
     moves: [
@@ -203,6 +215,7 @@ export const openings = [
 
   {
     id: 'evans-gambit',
+    group: 'Open Games',
     name: 'Evans Gambit',
     description: "An aggressive sacrifice of the b4 pawn in the Italian Game, gaining rapid development and a powerful attacking formation.",
     moves: [
@@ -219,6 +232,7 @@ export const openings = [
 
   {
     id: 'two-knights-defense',
+    group: 'Open Games',
     name: 'Two Knights Defense',
     description: "Black responds to the Italian Game with an aggressive counter-attack rather than the solid Bc5, leading to sharp tactical play.",
     moves: [
@@ -235,6 +249,7 @@ export const openings = [
 
   {
     id: 'philidor-defense',
+    group: 'Open Games',
     name: 'Philidor Defense',
     description: "Named after the legendary player Philidor, Black supports e5 with d6 — a solid but somewhat passive setup.",
     moves: [
@@ -251,6 +266,7 @@ export const openings = [
 
   {
     id: 'ponziani-opening',
+    group: 'Open Games',
     name: 'Ponziani Opening',
     description: "An early c3 supports d4, aiming to build a strong pawn center, though Black can achieve equality with accurate play.",
     moves: [
@@ -268,6 +284,7 @@ export const openings = [
   // Semi-Open Games
   {
     id: 'french-defense',
+    group: 'Semi-Open Games',
     name: 'French Defense',
     description: "Black builds a solid pawn chain with e6 and d5, fighting for the center while accepting a temporarily cramped position.",
     moves: [
@@ -284,6 +301,7 @@ export const openings = [
 
   {
     id: 'french-winawer',
+    group: 'Semi-Open Games',
     name: 'French Winawer',
     description: "The sharpest French variation — Black pins the c3 knight with Bb4, leading to wild, imbalanced positions.",
     moves: [
@@ -300,6 +318,7 @@ export const openings = [
 
   {
     id: 'french-advance',
+    group: 'Semi-Open Games',
     name: 'French Advance',
     description: "White advances e5, gaining space and restricting Black's pieces, while Black counterattacks with c5.",
     moves: [
@@ -316,6 +335,7 @@ export const openings = [
 
   {
     id: 'french-tarrasch',
+    group: 'Semi-Open Games',
     name: 'French Tarrasch',
     description: "White plays Nd2 instead of Nc3, avoiding the pin from Bb4 and playing a solid, strategic game.",
     moves: [
