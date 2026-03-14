@@ -3744,6 +3744,870 @@ export const openings = [
     ]
   },
   {
+    "id": "grunfeld-exchange",
+    "group": "Indian Defenses",
+    "name": "Grünfeld Exchange",
+    "description": "White plays cxd5 and e4, building a massive center, and Black must immediately attack it with c5 and Nc6 — the most critical Grünfeld line.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Grünfeld Exchange is the most critical test of the Grünfeld Defense."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. Black signals hypermodern intentions, allowing the big center."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, preparing to build a massive pawn center with e4."
+      },
+      {
+        "san": "g6",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "g6 — the Grünfeld fianchetto begins. The bishop on g7 will be the most important piece in the upcoming battle."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White develops the knight, preparing e4 and the Exchange Variation."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+        "commentary": "d5 — the Grünfeld! Black strikes in the center, allowing White to take and build the massive center."
+      },
+      {
+        "san": "cxd5",
+        "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
+        "commentary": "cxd5 — the Exchange! White accepts the central dominance. After Nxd5, e4 will create the massive center that Black must attack."
+      },
+      {
+        "san": "Nxd5",
+        "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3P4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "Nxd5 — Black recaptures with the knight. Now White will play e4, creating d4+e4 pawns. Black must immediately counter with c5! and Nc6, directly attacking these pawns. The Grünfeld Exchange leads to the most theoretically intense positions in chess, with forced lines extending 20+ moves into computer-analyzed territory."
+      }
+    ]
+  },
+  {
+    "id": "grunfeld-russian",
+    "group": "Indian Defenses",
+    "name": "Grünfeld Russian System",
+    "description": "White develops with Nf3 before committing the center, aiming for a positional squeeze with Rb1 and the queen on b3.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Russian System is a positional approach to fighting the Grünfeld Defense."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense, leading to the Grünfeld."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands. The English-QP setup creates the space advantage."
+      },
+      {
+        "san": "g6",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "g6 — Black prepares the Grünfeld fianchetto."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White develops the knight, heading for the Grünfeld complex."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+        "commentary": "d5 — the Grünfeld! Black strikes in the center with the characteristic pawn advance."
+      },
+      {
+        "san": "Nf3",
+        "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+        "commentary": "Nf3 — the Russian System! Rather than cxd5 (Exchange) or e4 (Classical), White develops the knight first. This flexible approach keeps more options open. The Russian System avoids the heavily analyzed Exchange Variation and aims for a more strategic battle."
+      },
+      {
+        "san": "Bg7",
+        "fen": "rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 2 5",
+        "commentary": "Bg7 — the Grünfeld bishop! On g7, this is the most important piece in Black's position. After O-O, Black will play c5 and challenge White's central control. The Russian System often leads to queen sortie positions with Qb3 and Rb1, creating pressure along the b-file. A sophisticated positional weapon against the Grünfeld."
+      }
+    ]
+  },
+  {
+    "id": "nimzo-classical",
+    "group": "Indian Defenses",
+    "name": "Nimzo-Indian Classical",
+    "description": "White plays Qc2 to avoid doubled pawns while maintaining the pawn on c3, leading to rich positional maneuvering.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Classical Variation (Qc2) is White's most popular and flexible approach against the Nimzo-Indian."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense begins, leading to the Nimzo-Indian complex."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, preparing the Nimzo setup with Nc3."
+      },
+      {
+        "san": "e6",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "e6 — Black prepares the Nimzo-Indian with Bb4, opening the path for the f8 bishop."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — the required move for the Nimzo-Indian. Now Black can pin this knight."
+      },
+      {
+        "san": "Bb4",
+        "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+        "commentary": "Bb4 — the Nimzo-Indian! Black pins the c3 knight, preventing e4 and threatening to double White's pawns."
+      },
+      {
+        "san": "Qc2",
+        "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq - 3 4",
+        "commentary": "Qc2 — the Classical Variation! White defends c3 with the queen, preventing Bxc3+ doubling. This is White's most popular and flexible response. The queen on c2 also prepares e4 and a4. While the queen move looks awkward, it creates a very solid position where White retains the c4 pawn and the pawn structure."
+      },
+      {
+        "san": "O-O",
+        "fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR w KQ - 4 5",
+        "commentary": "O-O — Black castles, bringing the king to safety. The Classical Nimzo leads to rich, strategic battles. White aims for e4 and central control, while Black plans ...d5 or ...c5 counter-attacks. One of the most theoretically important positions in chess, played at the highest level for decades."
+      }
+    ]
+  },
+  {
+    "id": "nimzo-rubinstein",
+    "group": "Indian Defenses",
+    "name": "Nimzo-Indian Rubinstein",
+    "description": "White plays e3 to develop quietly and maintain the structure, the solid Rubinstein system named after Akiba Rubinstein.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Rubinstein Variation is the most solid and popular system against the Nimzo-Indian."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense, heading for the Nimzo-Indian."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, building the Queen's Indian/Nimzo complex."
+      },
+      {
+        "san": "e6",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "e6 — Black prepares the Nimzo pin."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White places the knight where it can be pinned."
+      },
+      {
+        "san": "Bb4",
+        "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+        "commentary": "Bb4 — the Nimzo-Indian pin! Black threatens to double White's pawns."
+      },
+      {
+        "san": "e3",
+        "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR b KQkq - 0 4",
+        "commentary": "e3 — the Rubinstein System! White plays quietly, supporting d4 and preparing to develop the f1 bishop. This is the most popular Nimzo-Indian system at the highest level. Named after Akiba Rubinstein, who used it extensively. White accepts that e4 will be delayed but gets a solid, reliable position."
+      },
+      {
+        "san": "b6",
+        "fen": "rnbqk2r/p1pp1ppp/1p2pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "b6 — Black prepares to fianchetto the queen's bishop. From b7, the bishop will exert pressure on the long diagonal. This is a very solid response in the Rubinstein Nimzo, leading to rich strategic battles where both sides maneuver carefully. The Rubinstein Nimzo is a cornerstone of opening theory at grandmaster level."
+      }
+    ]
+  },
+  {
+    "id": "nimzo-saemisch",
+    "group": "Indian Defenses",
+    "name": "Nimzo-Indian Sämisch",
+    "description": "White plays a3 to force Black to give up the bishop pair, then builds an aggressive center — an uncompromising fighting weapon.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Sämisch Variation is one of White's most aggressive and uncompromising responses to the Nimzo-Indian."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense, leading to the Nimzo complex."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands and prepares for Nc3."
+      },
+      {
+        "san": "e6",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "e6 — Black prepares the Nimzo-Indian setup."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White places the knight where it can be pinned."
+      },
+      {
+        "san": "Bb4",
+        "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+        "commentary": "Bb4 — the Nimzo-Indian! Black pins the knight, threatening doubled pawns."
+      },
+      {
+        "san": "a3",
+        "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/P1N5/1P2PPPP/R1BQKBNR b KQkq - 0 4",
+        "commentary": "a3 — the Sämisch Variation! White immediately forces the bishop to capture or retreat. Rather than accepting doubled pawns if Black takes, White forces the issue immediately. The idea is to get the bishop pair and build an aggressive pawn center with e4 and f3. This combative approach leads to very sharp positions."
+      },
+      {
+        "san": "Bxc3+",
+        "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1b5/1P2PPPP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "Bxc3+ — Black captures with check! The bishop takes the c3 knight and gives check on the diagonal (c3-d2-e1). After bxc3, White has the bishop pair and a doubled but powerful c-pawn. White will play e4, f3, and build a massive center, while Black's solid structure and the weak c4 pawn provide good counter-chances. One of the sharpest Nimzo-Indian variations."
+      }
+    ]
+  },
+  {
+    "id": "kings-indian-saemisch",
+    "group": "Indian Defenses",
+    "name": "King's Indian Sämisch",
+    "description": "White plays f3 to build a massive center and prevent Ng4, leading to aggressive attacking lines on both sides.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The King's Indian Sämisch is one of the sharpest and most aggressive systems against the KID."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. Black signals hypermodern intentions, allowing White to build the center."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, building toward the massive center."
+      },
+      {
+        "san": "g6",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "g6 — the King's Indian fianchetto begins."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White develops the knight, supporting d4 and preparing e4."
+      },
+      {
+        "san": "Bg7",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+        "commentary": "Bg7 — the King's Indian Dragon bishop! This is the soul of the KID — a powerful piece on g7."
+      },
+      {
+        "san": "f3",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N2P2/PP2P1PP/R1BQKBNR b KQkq - 0 4",
+        "commentary": "f3 — the Sämisch Variation! White plays f3 before e4, building a massive center while preventing Ng4. This aggressive approach leads to some of the sharpest positions in the King's Indian. After e4 d6 Be3, White aims for a kingside or queenside attack while Black typically launches the thematic e5 or c5 counter-attacks. A brutal fighting opening."
+      },
+      {
+        "san": "d6",
+        "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/2PP4/2N2P2/PP2P1PP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "d6 — Black prepares the thematic e5 advance. The King's Indian Sämisch leads to incredibly sharp, double-edged positions. Black often sacrifices on the queenside (b5) or attacks on the kingside (e5, Nh5), while White storms the queenside (a4-a5) or launches a direct kingside attack. World Championship classics have been played in this variation."
+      }
+    ]
+  },
+  {
+    "id": "kings-indian-four-pawns",
+    "group": "Indian Defenses",
+    "name": "King's Indian Four Pawns Attack",
+    "description": "White builds an enormous four-pawn center with e4, f4, c4, d4 to try to overwhelm Black's hypermodern setup.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Four Pawns Attack is White's most ambitious attempt to refute the King's Indian Defense."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. Black allows the big center, trusting in the hypermodern counterplay."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, building toward the Four Pawns center."
+      },
+      {
+        "san": "g6",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "g6 — Black prepares the King's Indian fianchetto, accepting the challenge."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White develops the knight. The Four Pawns Attack requires both knights developed before the f4 push."
+      },
+      {
+        "san": "Bg7",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+        "commentary": "Bg7 — the King's Indian bishop is in position. Black's setup is ready for the upcoming central battle."
+      },
+      {
+        "san": "e4",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+        "commentary": "e4 — White builds the pawn center. After d6 and f4, White will have the colossal four-pawn center: c4-d4-e4-f4."
+      },
+      {
+        "san": "d6",
+        "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "d6 — Black prepares e5, the most direct challenge to the center. After 5.f4, White's four-pawn center is complete. Black typically responds with e5 immediately — if White plays d5, the game becomes a typical King's Indian race. If White exchanges (dxe5 dxe5 fxe5 Nxe4), Black gets active piece play. The Four Pawns Attack is a direct challenge that leads to theoretically sharp positions."
+      }
+    ]
+  },
+  {
+    "id": "kings-indian-petrosian",
+    "group": "Indian Defenses",
+    "name": "King's Indian Petrosian System",
+    "description": "White plays d5 early to close the center and squeeze Black positionally rather than engaging in dynamic pawn battles.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Petrosian System is named after World Champion Tigran Petrosian, who used it to neutralize the King's Indian with his trademark positional squeeze."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. Black sets up the King's Indian."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, building the English-QP structure."
+      },
+      {
+        "san": "g6",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "g6 — the King's Indian fianchetto."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White develops the knight, supporting d4."
+      },
+      {
+        "san": "Bg7",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+        "commentary": "Bg7 — the King's Indian Dragon bishop is in position."
+      },
+      {
+        "san": "e4",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+        "commentary": "e4 — White builds the central pawn structure. After d6 and the Petrosian's key move d5, the game changes character completely."
+      },
+      {
+        "san": "d6",
+        "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "d6 — Black prepares e5. After 5.Nf3 O-O 6.Be2 e5, White plays the Petrosian move 7.d5!, closing the center. This strategic decision prevents Black's typical e5-based kingside attacks and transforms the game into a slow maneuvering battle. Black must find queenside counterplay while White builds a positional vice. Petrosian used this system to crush many King's Indian players in the 1960s and 70s."
+      }
+    ]
+  },
+  {
+    "id": "kings-indian-averbakh",
+    "group": "Indian Defenses",
+    "name": "King's Indian Averbakh",
+    "description": "White plays Be2 and Bg5, pinning the f6 knight and seeking positional pressure before committing to a pawn storm.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Averbakh Variation is named after Soviet grandmaster Yuri Averbakh, a positional system against the King's Indian."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense, leading to the King's Indian."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, building the English-QP setup."
+      },
+      {
+        "san": "g6",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "g6 — the King's Indian fianchetto. Black prepares the Dragon bishop."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White develops the knight, supporting d4."
+      },
+      {
+        "san": "Bg7",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+        "commentary": "Bg7 — the King's Indian bishop on g7, ready to fight for the center."
+      },
+      {
+        "san": "e4",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+        "commentary": "e4 — White builds the powerful center. The Averbakh Variation will distinguish itself after d6 with 5.Be2 O-O 6.Bg5, pinning Black's knight."
+      },
+      {
+        "san": "d6",
+        "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "d6 — Black prepares the thematic e5 advance. Now after 5.Be2 O-O 6.Bg5, the Averbakh System is fully revealed. The Bg5 pin on the f6 knight creates lasting positional pressure. Black must decide whether to challenge with h6, play the thematic KID break e5, or switch to a Benoni structure with c5. The Averbakh is a positional weapon that many players use to avoid the complex tactical battles of the Sämisch or Four Pawns systems."
+      }
+    ]
+  },
+  {
+    "id": "benoni-defense",
+    "group": "Indian Defenses",
+    "name": "Modern Benoni",
+    "description": "Black allows White's pawn to reach d5, creating an asymmetric pawn structure with queenside majority vs. kingside activity.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Modern Benoni is one of the most dynamic and unbalanced defenses in chess, a fighting weapon beloved by players like Fischer and Tal."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. Black signals the Benoni with the knight developing first."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, building toward the Benoni pawn structure."
+      },
+      {
+        "san": "c5",
+        "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "c5 — Black's key move! This creates the Benoni pawn tension. After d5, the game will feature Black's queenside majority against White's central space."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+        "commentary": "d5 — White closes the center! Rather than dxc5, White advances, creating the characteristic Benoni pawn structure. Black has a queenside pawn majority (a5-b5-c5) while White has the central space (e4-d5). This imbalance leads to dynamic, fighting games."
+      },
+      {
+        "san": "e6",
+        "fen": "rnbqkb1r/pp1p1ppp/4pn2/2pP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+        "commentary": "e6 — Black immediately challenges the d5 pawn. The tension will be resolved by exd5."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pp1p1ppp/4pn2/2pP4/2P5/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 4",
+        "commentary": "Nc3 — White develops the knight, supporting d5 and e4."
+      },
+      {
+        "san": "exd5",
+        "fen": "rnbqkb1r/pp1p1ppp/5n2/2pp4/2P5/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "exd5 — Black captures, opening the e-file. Now cxd5 gives Black the typical Benoni pawn structure: Black has a pawn on c5 facing White's d5, and typically aims for e5 or b5 breaks. The Benoni leads to rich attacking chess where Black typically attacks the kingside while White expands on the queenside. A favorite of Fischer and Tal."
+      }
+    ]
+  },
+  {
+    "id": "benoni-four-pawns",
+    "group": "Indian Defenses",
+    "name": "Benoni Four Pawns Attack",
+    "description": "White builds an aggressive four-pawn center against the Benoni with e4, f4, c4, d5 — a direct attempt to overwhelm Black.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Four Pawns Attack against the Benoni is White's most aggressive option, aiming to build an overwhelming center."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense, leading to the Benoni complex."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, building toward the Benoni structure."
+      },
+      {
+        "san": "c5",
+        "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "c5 — Black's Benoni move! This creates the characteristic pawn tension."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+        "commentary": "d5 — White advances, closing the center and beginning the Benoni."
+      },
+      {
+        "san": "d6",
+        "fen": "rnbqkb1r/pp2pppp/3p1n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+        "commentary": "d6 — Black solidifies the position and prepares to challenge the center."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pp2pppp/3p1n2/2pP4/2P5/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 4",
+        "commentary": "Nc3 — White develops the knight, preparing the massive center."
+      },
+      {
+        "san": "g6",
+        "fen": "rnbqkb1r/pp2pp1p/3p1np1/2pP4/2P5/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "g6 — Black prepares the King's Indian-style fianchetto. After 5.e4 Bg7 6.f4, White has the Four Pawns Attack formation: c4-d5-e4-f4. This massive center gives White enormous space but creates potential overextension. Black's typical plan is e5 or b5 to undermine the center. The Four Pawns Attack leads to extremely sharp, double-edged play."
+      }
+    ]
+  },
+  {
+    "id": "budapest-gambit",
+    "group": "Indian Defenses",
+    "name": "Budapest Gambit",
+    "description": "Black sacrifices a pawn on move 2 with e5, counterattacking White's d5 pawn for immediate piece activity and attacking chances.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Budapest Gambit is a bold counter-gambit that immediately disrupts White's plans."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. Black is preparing the Budapest counter-gambit."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands. Now Black springs the Budapest Gambit."
+      },
+      {
+        "san": "e5",
+        "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "e5 — the Budapest Gambit! Black immediately sacrifices a pawn to attack White's pawn on d4 (now d5 after dxe5). This bold gambit dates to the early 20th century and was analyzed by many Hungarian masters (giving it its name). Black gets immediate piece activity in exchange for the pawn."
+      },
+      {
+        "san": "dxe5",
+        "fen": "rnbqkb1r/pppp1ppp/5n2/4P3/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+        "commentary": "dxe5 — White accepts the gambit. Now Black attacks the e5 pawn with the knight."
+      },
+      {
+        "san": "Ng4",
+        "fen": "rnbqkb1r/pppp1ppp/8/4P3/2P3n1/8/PP2PPPP/RNBQKBNR w KQkq - 1 4",
+        "commentary": "Ng4 — attacking the e5 pawn! The knight jumps in aggressively. Black will regain the pawn with active piece play. After Nf3 Bc5 (or Ne3), Black has excellent activity and the initiative."
+      },
+      {
+        "san": "Nf3",
+        "fen": "rnbqkb1r/pppp1ppp/8/4P3/2P3n1/5N2/PP2PPPP/RNBQKB1R b KQkq - 2 4",
+        "commentary": "Nf3 — White defends the e5 pawn and continues development."
+      },
+      {
+        "san": "Bc5",
+        "fen": "rnbqk2r/pppp1ppp/8/2b1P3/2P3n1/5N2/PP2PPPP/RNBQKB1R w KQkq - 3 5",
+        "commentary": "Bc5 — Black develops the bishop aggressively, aiming at f2. The Budapest Gambit leads to open, dynamic positions where Black has active pieces and tactical possibilities. While objectively Black may be slightly worse with perfect play, the Budapest is a very practical weapon in practical play — especially in rapid and blitz games."
+      }
+    ]
+  },
+  {
+    "id": "bogo-indian",
+    "group": "Indian Defenses",
+    "name": "Bogo-Indian Defense",
+    "description": "Black plays Bb4+ after Nf3 (not Nc3), creating a different type of pin and avoiding the Nimzo-Indian theory.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Bogo-Indian Defense arises when White plays Nf3 instead of Nc3 on move 3, and Black responds with Bb4+."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. Black keeps the game flexible, waiting for White's third move."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, building the English-QP structure."
+      },
+      {
+        "san": "e6",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "e6 — Black prepares the Indian Defense setup. If White plays Nc3, we'd have the Nimzo-Indian. But Nf3 leads to the Bogo."
+      },
+      {
+        "san": "Nf3",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+        "commentary": "Nf3 — White plays Nf3 specifically to avoid the Nimzo-Indian (which requires Nc3). Now Black has the option of the Bogo-Indian with Bb4+."
+      },
+      {
+        "san": "Bb4+",
+        "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4",
+        "commentary": "Bb4+ — the Bogo-Indian! Black gives check with the bishop, forcing White to block. Unlike the Nimzo-Indian, the c3 square is unoccupied so the pin has different consequences. White can block with Bd2, Nbd2, or Nc3. The Bogo-Indian is named after Efim Bogoljubov, who played it extensively in the 1920s and 30s."
+      },
+      {
+        "san": "Bd2",
+        "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP1BPPPP/RN1QKB1R b KQkq - 3 4",
+        "commentary": "Bd2 — the most common response! White blocks the check and offers to exchange bishops. After Bxd2+ (or the more complex Qe7), Black surrenders the bishop pair but gets solid equality. The bishop pair is White's main compensation in this variation."
+      },
+      {
+        "san": "Qe7",
+        "fen": "rnb1k2r/ppppqppp/4pn2/8/1bPP4/5N2/PP1BPPPP/RN1QKB1R w KQkq - 4 5",
+        "commentary": "Qe7 — Black retreats the bishop and develops the queen! Rather than exchanging on d2, Black keeps the bishop and places the queen actively on e7. This leads to rich strategic play. The Bogo-Indian is a solid, reliable defense that avoids much of the Nimzo-Indian's complex theory while maintaining good counterplay for Black."
+      }
+    ]
+  },
+  {
+    "id": "old-indian",
+    "group": "Indian Defenses",
+    "name": "Old Indian Defense",
+    "description": "Black plays d6 and e5 to create a solid position similar to the King's Indian but without fianchettoing the bishop.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Old Indian Defense is a classical system where Black builds a solid center with e5."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. The Old Indian will develop with d6 and e5 rather than the King's Indian's g6 and Bg7."
+      },
+      {
+        "san": "c4",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "c4 — White expands, building toward the Old Indian structure."
+      },
+      {
+        "san": "d6",
+        "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "d6 — the Old Indian! Black prepares e5 and a solid central structure. Unlike the King's Indian, Black will keep the king's bishop on the e7-f8 diagonal rather than fianchettoing."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White develops the knight, supporting d4 and preparing e4."
+      },
+      {
+        "san": "e5",
+        "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+        "commentary": "e5 — the Old Indian center! Black seizes central space, creating a position similar to the King's Indian but without the fianchetto. The e5 pawn is Black's main central asset."
+      },
+      {
+        "san": "Nf3",
+        "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+        "commentary": "Nf3 — White develops the knight and prepares Be2 or d5. White must decide whether to advance in the center or maintain the tension."
+      },
+      {
+        "san": "Nbd7",
+        "fen": "r1bqkb1r/pppn1ppp/3p1n2/4p3/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 2 5",
+        "commentary": "Nbd7 — developing the knight to d7, preparing to support e5 or jump to c5. The Old Indian leads to solid, strategic positions. While not as sharp as the King's Indian, the Old Indian is a reliable system that has been used by many grandmasters throughout history. Black's solid structure makes it difficult for White to achieve a quick breakthrough."
+      }
+    ]
+  },
+  {
+    "id": "dutch-leningrad",
+    "group": "Dutch & Flank d4",
+    "name": "Dutch Leningrad",
+    "description": "Black fianchettoes the kingside bishop with g6 and Bg7 in the Dutch Defense, creating a powerful counterattacking setup.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Leningrad Dutch is one of the most dynamic and aggressive variations of the Dutch Defense."
+      },
+      {
+        "san": "f5",
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "commentary": "f5 — the Dutch Defense! Black fights for the e4 square and prepares kingside activity from the very first move."
+      },
+      {
+        "san": "g3",
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/3P4/6P1/PPP1PP1P/RNBQKBNR b KQkq - 0 2",
+        "commentary": "g3 — White fianchettoes, creating a powerful Bg2 bishop aimed at Black's kingside. This is the most popular anti-Dutch setup."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/ppppp1pp/5n2/5p2/3P4/6P1/PPP1PP1P/RNBQKBNR w KQkq - 1 3",
+        "commentary": "Nf6 — Black develops the knight. The Leningrad variation will emerge with the kingside fianchetto."
+      },
+      {
+        "san": "Bg2",
+        "fen": "rnbqkb1r/ppppp1pp/5n2/5p2/3P4/6P1/PPP1PPBP/RNBQK1NR b KQkq - 2 3",
+        "commentary": "Bg2 — the Catalan bishop is powerfully placed, targeting the f3 square and creating long-diagonal pressure."
+      },
+      {
+        "san": "g6",
+        "fen": "rnbqkb1r/ppppp2p/5np1/5p2/3P4/6P1/PPP1PPBP/RNBQK1NR w KQkq - 0 4",
+        "commentary": "g6 — the Leningrad! Black prepares the kingside fianchetto, creating a hypermodern counterattacking setup. The Leningrad Dutch is named after the strong Leningrad (now St. Petersburg) chess school that developed and popularized this variation."
+      },
+      {
+        "san": "Nf3",
+        "fen": "rnbqkb1r/ppppp2p/5np1/5p2/3P4/5NP1/PPP1PPBP/RNBQK2R b KQkq - 1 4",
+        "commentary": "Nf3 — White develops the knight and prepares to castle. White's setup is harmonious and flexible."
+      },
+      {
+        "san": "Bg7",
+        "fen": "rnbqk2r/ppppp1bp/5np1/5p2/3P4/5NP1/PPP1PPBP/RNBQK2R w KQkq - 2 5",
+        "commentary": "Bg7 — the Leningrad bishop is in position! Black now has two powerful bishops on the long diagonals — Bg7 and the future dark-squared bishop. The Leningrad Dutch creates a flexible, dynamic setup where Black can play ...d6 and ...Nc6 with queenside counterplay, or advance with ...d5 for a more direct central battle."
+      }
+    ]
+  },
+  {
+    "id": "dutch-stonewall",
+    "group": "Dutch & Flank d4",
+    "name": "Dutch Stonewall",
+    "description": "Black builds the 'stonewall' pawn formation with d5, e6, f5, c6 — an extremely solid but somewhat rigid structure.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Dutch Stonewall is one of chess's most distinctive and solid defensive formations."
+      },
+      {
+        "san": "f5",
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "commentary": "f5 — the Dutch Defense begins. The Stonewall will develop with d5, e6, and c6 to create an impenetrable pawn structure."
+      },
+      {
+        "san": "g3",
+        "fen": "rnbqkbnr/ppppp1pp/8/5p2/3P4/6P1/PPP1PP1P/RNBQKBNR b KQkq - 0 2",
+        "commentary": "g3 — White fianchettoes, the standard anti-Dutch approach."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/ppppp1pp/5n2/5p2/3P4/6P1/PPP1PP1P/RNBQKBNR w KQkq - 1 3",
+        "commentary": "Nf6 — Black develops the knight and prepares to build the Stonewall formation."
+      },
+      {
+        "san": "Bg2",
+        "fen": "rnbqkb1r/ppppp1pp/5n2/5p2/3P4/6P1/PPP1PPBP/RNBQK1NR b KQkq - 2 3",
+        "commentary": "Bg2 — the powerful fianchettoed bishop will try to exploit the gaps created by Black's Stonewall formation."
+      },
+      {
+        "san": "e6",
+        "fen": "rnbqkb1r/pppp2pp/4pn2/5p2/3P4/6P1/PPP1PPBP/RNBQK1NR w KQkq - 0 4",
+        "commentary": "e6 — Black builds the Stonewall! This move begins the rigid pawn structure e6-d5-c6-f5. While immobile, this formation is extremely solid and gives Black a powerful knight on e4."
+      },
+      {
+        "san": "Nf3",
+        "fen": "rnbqkb1r/pppp2pp/4pn2/5p2/3P4/5NP1/PPP1PPBP/RNBQK2R b KQkq - 1 4",
+        "commentary": "Nf3 — White develops the knight and prepares to castle. White will try to exploit the gaps in Black's Stonewall, particularly the light squares created by the fixed pawns."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkb1r/ppp3pp/4pn2/3p1p2/3P4/5NP1/PPP1PPBP/RNBQK2R w KQkq - 0 5",
+        "commentary": "d5 — completing the Stonewall! The pawn formation f5-e6-d5-c6 creates the 'stonewall' — an impenetrable defensive barrier. Black's knight on e4 will be a powerful outpost. The Stonewall was a favorite of Botvinnik and is still played today at all levels. The weakness is the light squares, which White will try to exploit with a Bg5-Bh4 maneuver."
+      }
+    ]
+  },
+  {
+    "id": "colle-system",
+    "group": "Closed Games",
+    "name": "Colle System",
+    "description": "White builds a systematic setup with d4, Nf3, e3, and Bd3, avoiding theory and preparing a rapid kingside attack.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Colle System is a reliable, systematic opening that avoids extensive theory and leads to attacking positions."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "commentary": "d5 — Black meets the center challenge. The Colle is named after Belgian master Edgar Colle, who popularized it in the 1920s."
+      },
+      {
+        "san": "Nf3",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+        "commentary": "Nf3 — White develops the knight naturally, the starting point of the Colle System."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+        "commentary": "Nf6 — Black develops the knight to its best square."
+      },
+      {
+        "san": "e3",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+        "commentary": "e3 — the Colle move! White plays e3 before developing the bishop. This solid approach keeps options open and prepares Bd3 and c3."
+      },
+      {
+        "san": "e6",
+        "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+        "commentary": "e6 — Black builds a solid structure with e6 reinforcing d5."
+      },
+      {
+        "san": "Bd3",
+        "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/3BPN2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+        "commentary": "Bd3 — the Colle bishop! On d3, it targets the h7 pawn and is ready to support a kingside attack. After c3 and Nbd2, White will play e4 and the position opens up dramatically. The Colle System is a wonderful practical weapon that surprises many opponents who expect main-line theory."
+      },
+      {
+        "san": "c5",
+        "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/3P4/3BPN2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+        "commentary": "c5 — Black immediately challenges White's center. This is the most active response to the Colle. After dxc5 Bxc5 or c3 Nc6, the game becomes dynamic. The Colle leads to rich middlegame play where White typically launches a kingside attack, often featuring sacrifices on h7 or e5."
+      }
+    ]
+  },
+  {
+    "id": "torre-attack",
+    "group": "Closed Games",
+    "name": "Torre Attack",
+    "description": "White plays Bg5 against Nf6 on move 2, creating early pressure and avoiding the main Indian defenses.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Torre Attack is named after Carlos Torre, the Mexican grandmaster who developed it in the 1920s."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. Black attacks e4 and signals flexible intentions, but White has an immediate response."
+      },
+      {
+        "san": "Nf3",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+        "commentary": "Nf3 — White develops the knight before the bishop move, setting up the Torre."
+      },
+      {
+        "san": "e6",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+        "commentary": "e6 — Black builds a solid structure. The Torre Attack is less sharp against the KID (g6) than against solid setups like this."
+      },
+      {
+        "san": "Bg5",
+        "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
+        "commentary": "Bg5 — the Torre Attack! White immediately pins the f6 knight, creating early pressure. This sidesteps all the main Indian defenses (Nimzo, Queen's Indian, KID) and leads to original positions. The Torre is a practical weapon — not deeply theoretical but consistently solid."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+        "commentary": "d5 — Black challenges the center and develops normally. The Torre Attack doesn't create immediate threats so Black can develop naturally."
+      },
+      {
+        "san": "e3",
+        "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/3P4/4PN2/PPP2PPP/RN1QKB1R b KQkq - 0 4",
+        "commentary": "e3 — White solidifies the position and prepares to complete development. The Torre System often involves e3, Nbd2, c3, and Bd3, building a solid attacking setup."
+      },
+      {
+        "san": "Be7",
+        "fen": "rnbqk2r/ppp1bppp/4pn2/3p2B1/3P4/4PN2/PPP2PPP/RN1QKB1R w KQkq - 1 5",
+        "commentary": "Be7 — Black develops the bishop, breaking the pin and preparing to castle. The Torre Attack leads to rich middlegame play where White aims for a kingside attack while Black seeks counterplay in the center. A solid, reliable weapon for White that avoids the immense theory of the main Indian defenses."
+      }
+    ]
+  },
+  {
     "id": "catalan-opening",
     "group": "Indian Defenses",
     "name": "Catalan Opening",
