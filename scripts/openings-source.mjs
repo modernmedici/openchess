@@ -1050,6 +1050,296 @@ export const openings = [
   },
 
   {
+    id: 'french-classical',
+    group: 'Semi-Open Games',
+    name: 'French Classical',
+    description: "White pins the f6 knight with Bg5, leading to rich positional struggles where both sides fight for central control.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The French Classical (also called the MacCutcheon / Classical Variation) is the sharpest main-line French." },
+      { san: 'e6', commentary: "e6 — the French Defense begins. Black builds the solid pawn structure that defines the French." },
+      { san: 'd4', commentary: "d4 — White builds the powerful central pawn duo. The battle for the d5 square begins." },
+      { san: 'd5', commentary: "d5 — Black challenges the center immediately, establishing the characteristic French pawn chain." },
+      { san: 'Nc3', commentary: "Nc3 — developing the knight to its best square, supporting e4 and preparing to fight for central control." },
+      { san: 'Nf6', commentary: "Nf6 — the Classical French! Rather than Bb4 (Winawer) or dxe4 (Rubinstein), Black develops naturally to f6. This knight develops actively and prepares to castle kingside." },
+      { san: 'Bg5', commentary: "Bg5 — the Classical French pin! White pins the f6 knight against the queen. This creates immediate pressure and often leads to the most theoretically rich positions in the French Defense. Now Black must decide: the Burn Variation (dxe4), the MacCutcheon (Bb4), or the solid Be7." },
+      { san: 'Be7', commentary: "Be7 — the solid Classical main line! Black unpins naturally and prepares to castle. The position is rich with strategic possibilities. White has the pin and central space; Black has a solid structure and will fight with c5 and queenside counterplay. Some of the most famous French Defense games arise from here." },
+    ]
+  },
+
+  {
+    id: 'french-rubinstein',
+    group: 'Semi-Open Games',
+    name: 'French Rubinstein',
+    description: "Black exchanges on e4 immediately with dxe4, leading to an open and active game rather than the typical locked French positions.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Rubinstein Variation of the French Defense is one of the most active responses available to Black." },
+      { san: 'e6', commentary: "e6 — the French Defense. Black builds the French structure and will immediately open the center." },
+      { san: 'd4', commentary: "d4 — White builds the central duo. Black's response will immediately challenge this." },
+      { san: 'd5', commentary: "d5 — Black challenges the center, setting up the Rubinstein exchange." },
+      { san: 'Nc3', commentary: "Nc3 — White develops the knight, defending e4. Now Black can play the Rubinstein." },
+      { san: 'dxe4', commentary: "dxe4 — the Rubinstein Variation! Black immediately exchanges in the center, opening the position. This is the most active French response — rather than maintaining the typical French pawn chain, Black opens the game immediately and develops freely. Named after Akiba Rubinstein, one of the greatest players of the early 20th century." },
+      { san: 'Nxe4', commentary: "Nxe4 — White recaptures with the knight, placing it on a dominant central square. The e4 knight is powerful and will prove difficult to dislodge. Now Black's response determines the character of the game." },
+      { san: 'Nd7', commentary: "Nd7 — the most solid response! Black develops the knight from b8 to d7, planning to contest the e4 knight with ...Ngf6 or ...Ndf6. The Rubinstein leads to open, active positions where Black's pieces are free — a refreshing contrast to the closed positions typical of most French Defense variations." },
+    ]
+  },
+
+  {
+    id: 'caro-kann-classical',
+    group: 'Semi-Open Games',
+    name: 'Caro-Kann Classical',
+    description: "After Nxe4, Black develops the bishop to f5 outside the pawn chain — the key strategic idea that makes the Caro-Kann superior to the French.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Classical Caro-Kann is the most traditional and most popular variation of the Caro-Kann Defense." },
+      { san: 'c6', commentary: "c6 — the Caro-Kann Defense begins. Black prepares d5 and will be able to recapture with the c-pawn, keeping the light-squared bishop active." },
+      { san: 'd4', commentary: "d4 — White builds a strong central duo. The Classical Caro-Kann exchange structure is coming." },
+      { san: 'd5', commentary: "d5 — Black immediately challenges the center. The Caro-Kann's key difference from the French becomes apparent in the next few moves." },
+      { san: 'Nc3', commentary: "Nc3 — White defends e4, maintaining the central tension. The Classical Variation begins here." },
+      { san: 'dxe4', commentary: "dxe4 — Black exchanges! In the French this would lock in the dark-squared bishop, but in the Caro-Kann the light-squared bishop gets to develop actively." },
+      { san: 'Nxe4', commentary: "Nxe4 — the knight lands on the dominant e4 square. Now Black's key developing move reveals the Caro-Kann's strategic advantage over the French Defense." },
+      { san: 'Bf5', commentary: "Bf5 — the Classical Caro-Kann! Black's light-squared bishop develops outside the pawn chain to its most active square. This is IMPOSSIBLE in the French Defense (where the bishop is locked behind e6). This development is the primary reason many players prefer the Caro-Kann to the French. The bishop on f5 is actively placed and will participate in both defense and attack throughout the game." },
+    ]
+  },
+
+  {
+    id: 'caro-kann-panov',
+    group: 'Semi-Open Games',
+    name: 'Caro-Kann Panov Attack',
+    description: "White plays c4 after the exchange, creating an isolated queen's pawn position with rich piece play and attacking chances.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Panov Attack is one of the most ambitious ways for White to fight for an advantage in the Caro-Kann." },
+      { san: 'c6', commentary: "c6 — the Caro-Kann Defense. Black's solid setup is about to be tested by the Panov Attack." },
+      { san: 'd4', commentary: "d4 — White builds the central structure." },
+      { san: 'd5', commentary: "d5 — Black challenges the center immediately in the Caro-Kann style." },
+      { san: 'exd5', commentary: "exd5 — White exchanges, beginning the Panov Attack sequence." },
+      { san: 'cxd5', commentary: "cxd5 — Black recaptures with the c-pawn, maintaining a symmetric pawn structure. The Caro-Kann's key advantage is preserved." },
+      { san: 'c4', commentary: "c4 — the Panov Attack! White immediately challenges the d5 pawn, aiming to create an isolated queen's pawn (IQP) position. This transforms the Caro-Kann into a much more dynamic and piece-oriented game. The resulting IQP positions are rich and complex, requiring sophisticated strategic understanding from both sides." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops the knight, fighting for the center. The Panov Attack leads to positions resembling the Queen's Gambit Declined or Semi-Tarrasch. Black must decide whether to allow the IQP (after cxd5 Nxd5) or maintain the tension. The game becomes a battle of the IQP's dynamic possibilities against Black's solid structure." },
+    ]
+  },
+
+  {
+    id: 'scandinavian-qd6',
+    group: 'Semi-Open Games',
+    name: 'Scandinavian: Modern (Qd6)',
+    description: "Black retreats the queen to d6 rather than a5, keeping the queen centralized and setting up an aggressive counter-attacking setup.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Modern Scandinavian with Qd6 is a dynamic alternative to the classical Qa5 retreat." },
+      { san: 'd5', commentary: "d5 — the Scandinavian Defense! Black immediately challenges White's central pawn on move one." },
+      { san: 'exd5', commentary: "exd5 — White accepts the challenge and captures." },
+      { san: 'Qxd5', commentary: "Qxd5 — Black recaptures with the queen, the main line Scandinavian. The queen will now be attacked and must find a good square." },
+      { san: 'Nc3', commentary: "Nc3 — White develops with tempo, attacking the queen. The queen must now choose: Qa5 (classical) or Qd6 (Modern Scandinavian)." },
+      { san: 'Qd6', commentary: "Qd6 — the Modern Scandinavian! Rather than retreating to a5, Black keeps the queen more centrally placed on d6. This bold choice was popularized in the 1990s and is now a major weapon. The queen on d6 supports a future ...c5 pawn break and keeps the e5 square under observation." },
+      { san: 'd4', commentary: "d4 — White builds the center. With the queen on d6, White must be careful not to allow Black to activate all pieces quickly." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops the knight and attacks e4. The Modern Scandinavian leads to active, piece-oriented play. Black typically follows up with g6, Bg7, and kingside castling, creating a Pirc-like setup. The queen on d6 supports ...c5 breaks and creates interesting tactical possibilities that differ from the classical Qa5 lines." },
+    ]
+  },
+
+  {
+    id: 'nimzowitsch-defense',
+    group: 'Semi-Open Games',
+    name: 'Nimzowitsch Defense',
+    description: "Black develops the queen's knight to c6 on move one, a hypermodern response controlling d4 from afar while avoiding the center pawn structures.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Nimzowitsch Defense is one of the most provocative first moves Black can choose." },
+      { san: 'Nc6', commentary: "Nc6 — the Nimzowitsch Defense! Black develops the knight immediately, controlling d4 and e5 without occupying the center with pawns. Named after Aaron Nimzowitsch, the father of hypermodern chess. This unusual move can lead to many different positions depending on White's response." },
+      { san: 'd4', commentary: "d4 — White builds the center immediately. This direct approach challenges Black to prove that the knight placement is useful." },
+      { san: 'd5', commentary: "d5 — Black challenges the center! After allowing White to build a pawn center, Black now attacks it. This is the hypermodern philosophy at work: let White occupy the center with pawns, then undermine it with pieces." },
+      { san: 'e5', commentary: "e5 — White advances aggressively, gaining space. The pawn chain e5-d4 gives White territorial advantage. Black must now decide how to fight back." },
+      { san: 'Bf5', commentary: "Bf5 — Black develops the bishop outside the pawn chain. Similar to the Caro-Kann Classical, Black uses the Bf5 development to keep pieces active. The position is original and less explored than mainstream defenses." },
+      { san: 'Nf3', commentary: "Nf3 — White develops and supports the center." },
+      { san: 'e6', commentary: "e6 — Black solidifies the pawn structure and prepares to develop the f8 bishop. The Nimzowitsch Defense leads to original, complex positions where both sides must think for themselves rather than relying on established theory. A favorite weapon for players who want to take White out of preparation." },
+    ]
+  },
+
+  {
+    id: 'pirc-austrian',
+    group: 'Semi-Open Games',
+    name: 'Pirc Austrian Attack',
+    description: "White plays f4 against the Pirc, creating an aggressive attacking formation with f4-f5 potential to storm Black's kingside.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Austrian Attack is White's most aggressive weapon against the Pirc Defense." },
+      { san: 'd6', commentary: "d6 — the first move of the Pirc Defense, preparing Nf6 without allowing e5." },
+      { san: 'd4', commentary: "d4 — White builds the powerful pawn center that the Pirc player has allowed." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops the knight and attacks e4. The Pirc setup continues." },
+      { san: 'Nc3', commentary: "Nc3 — White develops the knight, reinforcing the center. Now White must choose: the Classical System (Be2) or the Austrian Attack (f4)." },
+      { san: 'g6', commentary: "g6 — the Pirc fianchetto! Black prepares Bg7, creating the characteristic hypermodern setup of the Pirc Defense." },
+      { san: 'f4', commentary: "f4 — the Austrian Attack! White immediately pushes the f-pawn, creating a massive attacking formation. The e4-d4-f4 pawn triangle is extremely aggressive, aiming for f5 to storm Black's kingside. This is the most direct attempt to refute the Pirc Defense, and it was considered potentially winning for White for some time." },
+      { san: 'Bg7', commentary: "Bg7 — Black's Pirc bishop is in position. The Dragon bishop on g7 is the key defensive piece, and Black must use it to combat White's aggressive f4-f5 plan. The Austrian Attack leads to incredibly sharp, double-edged positions where both sides have dangerous attacking chances. White charges on the kingside while Black seeks queenside counterplay." },
+    ]
+  },
+
+  {
+    id: 'alekhine-four-pawns',
+    group: 'Semi-Open Games',
+    name: 'Alekhine Four Pawns Attack',
+    description: "White builds a massive four-pawn center to refute the Alekhine Defense, while Black aims to undermine this overextension.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Four Pawns Attack is White's most ambitious attempt to punish the Alekhine Defense." },
+      { san: 'Nf6', commentary: "Nf6 — the Alekhine Defense! Black attacks e4 with the knight on move one, inviting White to chase it with pawn advances." },
+      { san: 'e5', commentary: "e5 — White accepts the challenge and pushes the knight away. The pawn chase begins." },
+      { san: 'Nd5', commentary: "Nd5 — the knight hops to d5, still in the center. White must decide how aggressively to pursue it." },
+      { san: 'd4', commentary: "d4 — White builds a second pawn in the center. The massive pawn center is taking shape." },
+      { san: 'd6', commentary: "d6 — Black attacks the e5 pawn immediately. The Alekhine player must constantly challenge White's overextended center." },
+      { san: 'c4', commentary: "c4 — the Four Pawns Attack! White builds a third pawn in the center, creating an enormous pawn mass: c4, d4, e5. This is the most ambitious approach, claiming massive space but creating a potentially overextended structure. Black must find the right undermining plan." },
+      { san: 'Nb6', commentary: "Nb6 — the knight retreats! The Alekhine strategy has worked — Black lured White into building a huge center that now must be defended. After exd6 cxd6, Black has good counterplay against the pawn chain. The Four Pawns Attack is a double-edged weapon: White has tremendous space, but any collapse of the center could be catastrophic." },
+    ]
+  },
+
+  {
+    id: 'latvian-gambit',
+    group: 'Semi-Open Games',
+    name: 'Latvian Gambit',
+    description: "Black sacrifices the e5 pawn with f5 on move two for a wild counter-attack, one of the sharpest and most controversial gambits in chess.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Latvian Gambit is one of the most provocative and unorthodox responses Black can choose." },
+      { san: 'e5', commentary: "e5 — Black establishes a central pawn. The Latvian Gambit will arise immediately on the next move." },
+      { san: 'Nf3', commentary: "Nf3 — White develops with tempo, attacking e5. The natural developing move, and now Black springs the Latvian Gambit." },
+      { san: 'f5', commentary: "f5 — the Latvian Gambit! Black immediately counter-attacks with f5, weakening the e5 pawn and creating a wild, unbalanced position. This gambit dates to the 17th century and was popularized by Latvian players in the early 20th century. White can accept with Nxe5 for a tactical battle, or decline with Bc4 or Nc3." },
+      { san: 'Nxe5', commentary: "Nxe5 — White accepts the gambit! The knight captures the e5 pawn. Black must now play very precisely to generate sufficient counterplay for the sacrificed material." },
+      { san: 'Qf6', commentary: "Qf6 — Black attacks the e5 knight immediately! The queen develops aggressively, creating threats against the knight and preparing to continue the counter-attack. This is the main line of the Latvian Gambit — Black fights for the initiative rather than trying to defend." },
+      { san: 'd4', commentary: "d4 — White builds the center and defends the e5 knight indirectly. White is accepting a material plus while trying to consolidate the position." },
+      { san: 'd6', commentary: "d6 — Black attacks the knight and opens lines. After the knight retreats, Black has the f5 pawn and active piece play as compensation. The Latvian Gambit leads to extremely sharp, unbalanced positions that are notoriously difficult to play correctly over the board. It's a favorite surprise weapon in faster time controls." },
+    ]
+  },
+
+  {
+    id: 'elephant-gambit',
+    group: 'Semi-Open Games',
+    name: 'Elephant Gambit',
+    description: "Black counter-sacrifices with d5 after Nf3, aiming for an aggressive counter-attack but White can gain a large advantage with accurate play.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Elephant Gambit is one of the most unusual and dangerous counter-gambits Black can play." },
+      { san: 'e5', commentary: "e5 — Black occupies the center. The Elephant Gambit will immediately challenge White's development." },
+      { san: 'Nf3', commentary: "Nf3 — White develops with tempo, attacking e5. Now instead of defending e5 with Nc6, Black springs the Elephant Gambit." },
+      { san: 'd5', commentary: "d5 — the Elephant Gambit! Black immediately counter-attacks in the center, offering a pawn. After exd5, Black gets active piece play and open lines. This gambit is considered dubious at the highest level — White can gain a large advantage with accurate play — but it creates immediate complications and can be deadly in quick games." },
+      { san: 'exd5', commentary: "exd5 — White accepts the gambit, capturing the d5 pawn. Now Black continues the counter-attack." },
+      { san: 'e4', commentary: "e4 — the Elephant counter-attack! Black pushes the e-pawn to attack the f3 knight. This is the whole point — Black gets active counterplay and open lines for the pieces, similar in spirit to other aggressive gambits." },
+      { san: 'Qe2', commentary: "Qe2 — White plays Qe2 to defend the knight and prepare to castle! This is one of the critical responses, keeping the knight protected while maintaining pressure on the e4 pawn." },
+      { san: 'Qe7', commentary: "Qe7 — Black develops the queen to e7, creating a battery on the e-file! The queens face each other on the e-file. Black is playing for maximum complications. The Elephant Gambit leads to original, unexplored positions that can trip up an unprepared opponent, though objective analysis suggests White should maintain an advantage with accurate play." },
+    ]
+  },
+
+  // Closed Games new additions
+  {
+    id: 'semi-slav',
+    group: 'Closed Games',
+    name: 'Semi-Slav Defense',
+    description: "Black combines elements of the Slav (c6) and QGD (e6), creating a solid structure with excellent long-term potential.",
+    moves: [
+      { san: 'd4', commentary: "d4 — the Queen's Pawn. The Semi-Slav is one of the most theoretically rich and important defenses in modern chess." },
+      { san: 'd5', commentary: "d5 — Black meets the center challenge directly, establishing the Queen's Gambit pawn structure." },
+      { san: 'c4', commentary: "c4 — the Queen's Gambit offer. White will soon face Black's unique Semi-Slav hybrid defense." },
+      { san: 'c6', commentary: "c6 — the Slav move! Black supports d5 and prepares the Semi-Slav hybrid structure." },
+      { san: 'Nf3', commentary: "Nf3 — White develops naturally, maintaining pressure on d5." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops the knight, the most active response in the Slav/Semi-Slav complex." },
+      { san: 'Nc3', commentary: "Nc3 — White develops and maintains pressure. Both sides are completing development toward the critical Semi-Slav position." },
+      { san: 'e6', commentary: "e6 — the Semi-Slav! Black plays both c6 (Slav) AND e6 (QGD). This hybrid creates a very solid structure. The e6 pawn temporarily restricts the c8 bishop but keeps the pawn structure extremely resilient. The Semi-Slav leads to some of the most theoretically important games in modern chess, including the Meran, Moscow, and Anti-Moscow variations." },
+    ]
+  },
+
+  {
+    id: 'meran-variation',
+    group: 'Closed Games',
+    name: 'Semi-Slav: Meran',
+    description: "After the Semi-Slav setup, Black plays Nbd7 and advances b5 for active queenside counterplay in the Meran Variation.",
+    moves: [
+      { san: 'd4', commentary: "d4 — the Queen's Pawn, heading for the Meran Variation, one of the most analyzed positions in all of chess theory." },
+      { san: 'd5', commentary: "d5 — Black establishes the central pawn structure for the Semi-Slav/Meran complex." },
+      { san: 'c4', commentary: "c4 — the Queen's Gambit structure begins." },
+      { san: 'e6', commentary: "e6 — Black prepares the QGD/Semi-Slav structure first." },
+      { san: 'Nf3', commentary: "Nf3 — White develops the knight naturally." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops actively and prepares to fight for the center." },
+      { san: 'Nc3', commentary: "Nc3 — White develops both knights in the Meran approach." },
+      { san: 'c6', commentary: "c6 — completing the Semi-Slav structure! The position is now ready for the Meran. After 5.e3 Nbd7 6.Bd3 dxc4 7.Bxc4 b5 8.Bd3 (or Bb3) a6, Black gains queenside space with active counterplay. The Meran is named after the 1924 tournament in Merano, Italy, and has been played in countless world championship battles." },
+    ]
+  },
+
+  {
+    id: 'moscow-variation',
+    group: 'Closed Games',
+    name: 'Semi-Slav: Moscow',
+    description: "White pins the f6 knight with Bg5 in the Slav, forcing Black to weaken the queenside or enter complex pin-breaking lines.",
+    moves: [
+      { san: 'd4', commentary: "d4 — the Queen's Pawn. The Moscow Variation is a specific anti-Slav weapon where White immediately pins the f6 knight." },
+      { san: 'd5', commentary: "d5 — Black establishes the central pawn structure." },
+      { san: 'c4', commentary: "c4 — the Queen's Gambit offer." },
+      { san: 'c6', commentary: "c6 — the Slav Defense! Black supports d5 with the c-pawn, keeping the light-squared bishop's diagonal open." },
+      { san: 'Nc3', commentary: "Nc3 — White develops the knight, preparing various attacking setups against the Slav." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops the knight actively. Now instead of the main Slav line with Nf3, White plays the Moscow with Bg5!" },
+      { san: 'Bg5', commentary: "Bg5 — the Moscow Variation! White immediately pins the f6 knight, creating immediate complications. This anti-Slav weapon forces Black to make concrete decisions immediately. The bishop on g5 can create a lasting weakness in Black's position or lead to complex pin-breaking sequences." },
+      { san: 'dxc4', commentary: "dxc4 — Black accepts the gambit, giving up the center to open lines! This is one of the key responses to the Moscow — Black takes the pawn and asks White to prove sufficient compensation. After e4 b5, Black holds the extra pawn with an aggressive queenside setup. The Moscow Variation leads to rich, unbalanced positions with both sides having clear plans." },
+    ]
+  },
+
+  {
+    id: 'queens-gambit-tartakower',
+    group: 'Closed Games',
+    name: 'QGD Tartakower',
+    description: "Black plays b6 and Bb7 for active long-diagonal pressure, a favorite of many world champions for its dynamic queenside counterplay.",
+    moves: [
+      { san: 'd4', commentary: "d4 — the Queen's Pawn. The Tartakower Variation (also called Tartakower-Makogonov-Bondarevsky system) is a very popular QGD setup at the highest level." },
+      { san: 'd5', commentary: "d5 — Black establishes the Queen's Gambit Declined structure." },
+      { san: 'c4', commentary: "c4 — the Queen's Gambit. Black will decline but with an active queenside plan." },
+      { san: 'e6', commentary: "e6 — Black reinforces d5, entering the Queen's Gambit Declined." },
+      { san: 'Nc3', commentary: "Nc3 — White develops naturally. The Tartakower begins after the Classical setup with Bg5." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops the knight to its best square." },
+      { san: 'Bg5', commentary: "Bg5 — White pins the knight, the Classical QGD setup. Now Black must choose between Be7, h6, or other responses." },
+      { san: 'h6', commentary: "h6 — the beginning of the Tartakower! Black immediately challenges the bishop. After Bh4 Be7 e3 O-O Nf3 b6, the Tartakower is complete. The b6+Bb7 fianchetto gives Black active queenside pressure along the a8-h1 diagonal. This was a favorite of Petrosian, Karpov, and Kasparov, and remains one of the most popular QGD setups today." },
+    ]
+  },
+
+  {
+    id: 'queens-gambit-lasker',
+    group: 'Closed Games',
+    name: 'QGD Lasker Defense',
+    description: "Black plays Ne4 to exchange pieces and relieve pressure, a classical equalizing method named after World Champion Emanuel Lasker.",
+    moves: [
+      { san: 'd4', commentary: "d4 — the Queen's Pawn. The Lasker Defense is Emanuel Lasker's clever method of simplifying the QGD and neutralizing White's typical pressure." },
+      { san: 'd5', commentary: "d5 — Black establishes the Queen's Gambit Declined structure." },
+      { san: 'c4', commentary: "c4 — the Queen's Gambit offer." },
+      { san: 'e6', commentary: "e6 — the Queen's Gambit Declined. Black builds a solid structure." },
+      { san: 'Nf3', commentary: "Nf3 — White develops naturally, heading for the QGD main lines." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops the knight to its best central square." },
+      { san: 'Nc3', commentary: "Nc3 — White develops both knights, building toward the Classical QGD with Bg5." },
+      { san: 'Be7', commentary: "Be7 — Black develops the bishop and prepares to castle. After Bg5 O-O e3 h6 Bh4, Black will play Ne4! — the Lasker Defense move. By exchanging pieces with Ne4, Black relieves the cramped position and equalizes. World Champion Emanuel Lasker used this method throughout his career, demonstrating that simplification is a profound and sophisticated strategy." },
+    ]
+  },
+
+  {
+    id: 'cambridge-springs',
+    group: 'Closed Games',
+    name: 'Cambridge Springs',
+    description: "Black plays Qa5 with a simultaneous attack on c4 and c3, creating an active queen deployment in the Queen's Gambit.",
+    moves: [
+      { san: 'd4', commentary: "d4 — the Queen's Pawn. The Cambridge Springs is a classical QGD variation that creates immediate pressure on White's position." },
+      { san: 'd5', commentary: "d5 — Black establishes the Queen's Gambit Declined structure." },
+      { san: 'c4', commentary: "c4 — the Queen's Gambit offer. Black will decline and immediately create problems for White." },
+      { san: 'e6', commentary: "e6 — the QGD. Black reinforces d5 and prepares the Cambridge Springs." },
+      { san: 'Nc3', commentary: "Nc3 — White develops the knight. The Cambridge Springs requires this knight to be on c3." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops the knight to its best square." },
+      { san: 'Bg5', commentary: "Bg5 — White pins the knight, the Classical QGD setup." },
+      { san: 'Nbd7', commentary: "Nbd7 — preparing the Cambridge Springs! Rather than Be7 (Classical) or h6 (Tartakower), Black develops the knight to d7, preparing the queen sortie to a5. After 5.e3 c6 6.Nf3 Qa5!, the Cambridge Springs Defense is reached — Black's queen attacks c3 and the Bg5 pin simultaneously, creating immediate complications. Named after the 1904 tournament in Cambridge Springs, Pennsylvania." },
+    ]
+  },
+
+  {
+    id: 'semi-tarrasch',
+    group: 'Closed Games',
+    name: 'Semi-Tarrasch Defense',
+    description: "Black plays c5 to create an isolated queen's pawn, accepting structural imperfections for dynamic piece activity.",
+    moves: [
+      { san: 'd4', commentary: "d4 — the Queen's Pawn. The Semi-Tarrasch is a dynamic QGD variation where Black accepts an isolated pawn for active piece play." },
+      { san: 'd5', commentary: "d5 — Black establishes the central pawn." },
+      { san: 'c4', commentary: "c4 — the Queen's Gambit. Black will decline and create an IQP position." },
+      { san: 'e6', commentary: "e6 — Black reinforces d5, setting up the QGD/Tarrasch complex." },
+      { san: 'Nc3', commentary: "Nc3 — White develops the knight. The Semi-Tarrasch requires White to play Nf3 before e3." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops actively, preparing the c5 counter-thrust." },
+      { san: 'Nf3', commentary: "Nf3 — White develops the second knight. Now Black plays the Semi-Tarrasch." },
+      { san: 'c5', commentary: "c5 — the Semi-Tarrasch! Black immediately counter-attacks White's d4 pawn, creating dynamic pawn tension. After dxc5 Bxc5 or cxd5 exd5 (IQP), the game becomes highly dynamic. The IQP version leads to rich piece play where Black's active pieces compensate for the structural weakness. A favorite of players who want activity and piece play rather than solid structures." },
+    ]
+  },
+
+  {
     id: 'catalan-opening',
     group: 'Indian Defenses',
     name: 'Catalan Opening',
