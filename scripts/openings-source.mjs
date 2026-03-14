@@ -726,6 +726,330 @@ export const openings = [
   },
 
   {
+    id: 'ruy-lopez-berlin',
+    group: 'Open Games',
+    name: 'Ruy Lopez: Berlin Defense',
+    description: "The Berlin Defense — Black develops the knight to f6 attacking e4, leading to the famous 'Berlin Endgame' after White castles and Black captures on e4.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn, and we're heading for one of the most theoretically explored variations in modern top-level chess." },
+      { san: 'e5', commentary: "e5 — Black mirrors the center. The Berlin Defense will arise from this classical symmetry." },
+      { san: 'Nf3', commentary: "Nf3 — developing with tempo, attacking e5. White sets up the Ruy Lopez bishop move on the next turn." },
+      { san: 'Nc6', commentary: "Nc6 — defending e5 while developing. This leads to the main Ruy Lopez complex." },
+      { san: 'Bb5', commentary: "Bb5 — the Spanish bishop! White pins the c6 knight and pressures the center. Now Black chooses between a6 (Morphy Defense) or Nf6 (the Berlin)." },
+      { san: 'Nf6', commentary: "Nf6 — the Berlin Defense! Black counter-attacks e4 immediately rather than playing a6. This move was considered harmless for decades but became the most solid equalizing weapon at world championship level after Kramnik used it against Kasparov in 2000." },
+      { san: 'O-O', commentary: "O-O — White castles, a key move. Rather than defending e4, White allows the knight to take it. After O-O, the Berlin Endgame arises: Black takes on e4, White attacks the knight, and after a forced sequence queens come off the board, leading to a legendary endgame battle." },
+      { san: 'Nxe4', commentary: "Nxe4 — Black captures the e4 pawn! The Berlin Endgame begins. After d4 d6 Bxc6+ dxc6 dxe5 Nf6+ Qxd8+ Kxd8, queens are exchanged early. Black has doubled pawns but active pieces. World champions have battled in this endgame for decades — it's one of the most analyzed positions in chess." },
+    ]
+  },
+
+  {
+    id: 'ruy-lopez-exchange',
+    group: 'Open Games',
+    name: 'Ruy Lopez: Exchange Variation',
+    description: "White captures on c6 immediately, giving Black doubled pawns in exchange for the bishop pair and a long-term endgame advantage.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. White heads for the Exchange Variation of the Ruy Lopez, one of the most direct and strategically clear variations." },
+      { san: 'e5', commentary: "e5 — Black occupies the center. The Exchange Ruy Lopez arises when White decides to trade the bishop for the knight immediately." },
+      { san: 'Nf3', commentary: "Nf3 — developing with tempo. The standard Ruy Lopez setup begins." },
+      { san: 'Nc6', commentary: "Nc6 — defending e5 naturally. Black is set up for the main Ruy Lopez when White springs the Exchange Variation." },
+      { san: 'Bb5', commentary: "Bb5 — the Spanish bishop takes aim at the c6 knight. The Exchange Variation is now just one move away." },
+      { san: 'a6', commentary: "a6 — Black challenges the bishop, expecting Ba4. But White has other plans — the immediate exchange!" },
+      { san: 'Bxc6', commentary: "Bxc6 — the Exchange Variation! White immediately takes the knight, giving Black doubled pawns. White sacrifices the bishop for a knight and gives Black the bishop pair. The compensation is a long-term structural advantage: Black's doubled c-pawns are a permanent weakness that must be nursed into a winning endgame." },
+      { san: 'dxc6', commentary: "dxc6 — Black recaptures with the d-pawn, opening the d-file and the diagonal for the dark-squared bishop. Black has the bishop pair and active piece play, but the doubled c-pawns will be a target for the rest of the game. Fischer famously played this as White, grinding out many famous endgame victories." },
+    ]
+  },
+
+  {
+    id: 'ruy-lopez-closed',
+    group: 'Open Games',
+    name: 'Ruy Lopez: Closed',
+    description: "The main line of the Ruy Lopez — Black reinforces e5 with Be7 while White prepares the long-term c3-d4 pawn center.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn, beginning the most deeply analyzed opening system in chess history." },
+      { san: 'e5', commentary: "e5 — Black meets the center challenge directly, setting up the classical open game." },
+      { san: 'Nf3', commentary: "Nf3 — developing with tempo, attacking e5 and preparing the Ruy Lopez bishop." },
+      { san: 'Nc6', commentary: "Nc6 — defending e5 while developing the knight to its best square." },
+      { san: 'Bb5', commentary: "Bb5 — the Spanish bishop! White pins the c6 knight and applies indirect pressure on e5." },
+      { san: 'a6', commentary: "a6 — the Morphy Defense. Black immediately challenges the bishop, forcing White to declare intentions." },
+      { san: 'Ba4', commentary: "Ba4 — White retreats, maintaining the pin. The tension is kept alive. Now the Closed Ruy Lopez begins in earnest — the most important and deeply analyzed opening in all of chess history." },
+      { san: 'Be7', commentary: "Be7 — a key move in the Closed Ruy Lopez! Black develops the bishop and prepares to castle. This solid approach leads to the main Closed Ruy Lopez where White will play O-O, Re1, c3, d4 while Black counters with ...b5, ...d6, and the thematic ...Na5 or ...Nb8-d7. Decades of theoretical battles follow from here." },
+    ]
+  },
+
+  {
+    id: 'ruy-lopez-marshall',
+    group: 'Open Games',
+    name: 'Ruy Lopez: Marshall Attack',
+    description: "Black sacrifices a pawn on move 9 with d5 to launch a fierce kingside attack — one of the most deeply prepared gambits in chess.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Marshall Attack is one of the most heavily analyzed gambits in chess, requiring knowledge of theory up to move 20+." },
+      { san: 'e5', commentary: "e5 — Black mirrors the center, heading for the Ruy Lopez main line that will eventually diverge into the Marshall." },
+      { san: 'Nf3', commentary: "Nf3 — developing with tempo. The standard Ruy Lopez setup begins." },
+      { san: 'Nc6', commentary: "Nc6 — defending e5. Both sides are following the main Ruy Lopez path." },
+      { san: 'Bb5', commentary: "Bb5 — the Spanish bishop. White is heading into the most theoretically rich continuation." },
+      { san: 'a6', commentary: "a6 — the Morphy Defense, keeping maximum tension. Black is following the exact path that will later lead to the Marshall sacrifice." },
+      { san: 'Ba4', commentary: "Ba4 — White maintains the pin. This position will evolve through O-O, Be7, Re1, b5, Bb3, O-O, c3 before Black unleashes the Marshall pawn sacrifice with d5, giving up a pawn for a fierce kingside attack." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops actively, attacking e4. The game is now on the main Ruy Lopez highway. After 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3, Black will unleash the legendary Marshall Attack: 8...d5! sacrificing a pawn for a ferocious kingside assault that has been in the top-level repertoire for over 100 years." },
+    ]
+  },
+
+  {
+    id: 'giuoco-piano',
+    group: 'Open Games',
+    name: 'Giuoco Piano',
+    description: "The 'Quiet Game' — both sides develop naturally with bishops on c4 and c5 before White plays c3 preparing d4.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn, one of the oldest and most popular openings in chess history." },
+      { san: 'e5', commentary: "e5 — Black mirrors the center. The Giuoco Piano is one of the oldest recorded openings, with games dating back to the 16th century." },
+      { san: 'Nf3', commentary: "Nf3 — developing with tempo, attacking e5. White builds toward the Italian Game complex." },
+      { san: 'Nc6', commentary: "Nc6 — defending e5 while developing. Both sides are following the most classical development principles." },
+      { san: 'Bc4', commentary: "Bc4 — the Italian bishop! The bishop aims at the critical f7 square and prepares to participate in the center battle. This is one of the oldest developing moves in chess — the Via Italiana." },
+      { san: 'Bc5', commentary: "Bc5 — Black mirrors the strategy with an equally active bishop! Both bishops eye the opponent's f2/f7 weaknesses. The position is completely symmetrical and balanced — the 'Quiet Game' (Giuoco Piano in Italian) begins." },
+      { san: 'c3', commentary: "c3 — White prepares d4! This is the Giuoco Piano's characteristic move, building a strong pawn center. White plans c3-d4, challenging Black's bishop and gaining central space. The position transitions from symmetrical to dynamic." },
+      { san: 'Nf6', commentary: "Nf6 — Black counter-attacks e4 rather than waiting for White's d4! This aggressive developing move creates immediate pressure. The Giuoco Piano now branches into many rich variations — from the quiet Giuoco Pianissimo with d3 to the sharp tactical battles after d4 and center opens." },
+    ]
+  },
+
+  {
+    id: 'fried-liver-attack',
+    group: 'Open Games',
+    name: 'Fried Liver Attack',
+    description: "White sacrifices the knight on f7 in the Two Knights Defense for a ferocious attack on the exposed Black king.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn, leading to one of the most explosive and entertaining attacking combinations in all of chess theory." },
+      { san: 'e5', commentary: "e5 — Black occupies the center. The Fried Liver Attack will arise from the Italian Game / Two Knights complex." },
+      { san: 'Nf3', commentary: "Nf3 — White develops toward the Italian Game setup." },
+      { san: 'Nc6', commentary: "Nc6 — Black defends e5. The stage is set for the Italian Game." },
+      { san: 'Bc4', commentary: "Bc4 — the Italian bishop targets f7. This is the starting point for the Fried Liver Attack after Black plays Nf6." },
+      { san: 'Nf6', commentary: "Nf6 — the Two Knights Defense! Black counter-attacks e4, inviting the legendary Fried Liver. Rather than the solid Bc5, Black immediately counter-attacks, accepting the risk of White's coming sacrifice." },
+      { san: 'Ng5', commentary: "Ng5 — the attack begins! White threatens Nxf7 immediately, forking queen and rook. Black must respond carefully — d5 is the only good reply, creating counter-threats in the center." },
+      { san: 'd5', commentary: "d5 — the only good response! Black counter-attacks immediately. After exd5 Nxd5, White plays Nxf7! — the Fried Liver Attack! The knight sacrifice on f7 opens the king and forces it forward. After ...Kxf7 Qf3+ Ke6 Nc3, White has a ferocious attack that has terrified players since the 16th century." },
+    ]
+  },
+
+  {
+    id: 'danish-gambit',
+    group: 'Open Games',
+    name: 'Danish Gambit',
+    description: "White sacrifices two pawns for rapid development and devastating diagonal attacks with both bishops.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn, beginning one of the most aggressive gambits from the 19th century romantic era." },
+      { san: 'e5', commentary: "e5 — Black establishes a central pawn. The Danish Gambit will offer not one but two pawns for a ferocious attack." },
+      { san: 'd4', commentary: "d4 — the first pawn offer! White immediately challenges the center. After the exchange, White will offer a second pawn for devastating development." },
+      { san: 'exd4', commentary: "exd4 — Black accepts the first pawn. Now White will offer a second pawn to gain even more development and open the diagonals for the bishops." },
+      { san: 'c3', commentary: "c3 — the Danish Gambit! White offers a second pawn. If Black takes again, White gets both bishops on raking diagonals with tremendous attacking power. This gambit was a feared weapon in the 19th century, popularized in Danish chess circles." },
+      { san: 'dxc3', commentary: "dxc3 — Black accepts the second pawn! Now White has lost two pawns but gains rapid development. The bishops will spring to c4 and b2, creating powerful pressure along the a2-g8 and b2-g7 diagonals." },
+      { san: 'Bc4', commentary: "Bc4 — the first bishop springs to life! Aimed at f7, creating immediate threats. White's development is now racing ahead. After Nxc3, the b2 bishop will complete the battery, and Black must play very carefully to avoid a devastating early attack." },
+      { san: 'cxb2', commentary: "cxb2 — Black captures the third pawn! Now White plays Bxb2 and has two ferociously active bishops aimed at the heart of Black's position. White has sacrificed three pawns for a complete development lead and attacking chances that have broken many kings throughout history." },
+    ]
+  },
+
+  {
+    id: 'center-game',
+    group: 'Open Games',
+    name: 'Center Game',
+    description: "White opens the center with d4 on move 2 and recaptures with the queen, gaining a central queen but losing time when it's attacked.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Center Game is one of the oldest openings, an ambitious attempt to immediately control the center with pawns." },
+      { san: 'e5', commentary: "e5 — Black mirrors the center. The Center Game will open the position dramatically on White's next move." },
+      { san: 'd4', commentary: "d4 — the Center Game! White immediately challenges the center on move 2. This is more direct than the Scotch (which waits until move 3). After exd4, White has the choice of the Danish Gambit (c3) or recapturing with the queen." },
+      { san: 'exd4', commentary: "exd4 — Black captures, opening the center. Now White must decide: recapture with the queen (Center Game) or offer the Danish Gambit with c3." },
+      { san: 'Qxd4', commentary: "Qxd4 — the Center Game proper! White recaptures with the queen, placing it on a dominant central square. However, the queen will soon be attacked, costing White time. This is why the Center Game is considered somewhat dubious — White gains a central queen but loses developing tempo." },
+      { san: 'Nc6', commentary: "Nc6 — Black attacks the queen! This developing move gains tempo immediately. White must move the queen again, giving Black a free developing move. The queen's early foray into the center is being punished according to classical opening principles." },
+      { san: 'Qe3', commentary: "Qe3 — the queen retreats to e3, keeping pressure on the e-file and supporting the center. This is the main line in the Center Game. The queen on e3 eyes the a7-g1 diagonal and supports a possible kingside attack, though it remains somewhat exposed." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops with tempo, attacking e4. The position is roughly equal. Black has a comfortable game with active pieces and the advantage of having gained a tempo through Nc6. The Center Game rarely leads to White getting an advantage — it's mostly played as a surprise weapon." },
+    ]
+  },
+
+  {
+    id: 'max-lange-attack',
+    group: 'Open Games',
+    name: 'Max Lange Attack',
+    description: "White sacrifices a pawn with d4 in the Two Knights/Italian complex to create a powerful central initiative.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn, leading to the Max Lange Attack, one of the most tactically complex openings of the 19th century." },
+      { san: 'e5', commentary: "e5 — Black occupies the center. The Max Lange Attack arises from the Italian Game when Black develops the knight to f6." },
+      { san: 'Nf3', commentary: "Nf3 — developing with tempo. White is setting up the Italian Game structure." },
+      { san: 'Nc6', commentary: "Nc6 — Black defends e5. The Italian Game complex begins." },
+      { san: 'Bc4', commentary: "Bc4 — the Italian bishop! White aims at f7 and sets up for the Max Lange Attack's central pawn break." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops aggressively with the Two Knights Defense. Now the Max Lange Attack begins!" },
+      { san: 'd4', commentary: "d4 — the Max Lange pawn thrust! White immediately strikes in the center, offering a pawn. If Black takes, White will play e5 (driving the knight) and Bxd4 with a powerful central initiative and attacking chances reminiscent of the Scotch Gambit." },
+      { san: 'exd4', commentary: "exd4 — Black accepts! Now after 5.O-O (not immediately e5) Bc5 6.e5 d5 7.exf6 dxc4, the Max Lange Attack proper begins. White has sacrificed material for rapid development and a fierce attacking position. The resulting complications have been analyzed for over 150 years." },
+    ]
+  },
+
+  {
+    id: 'goring-gambit',
+    group: 'Open Games',
+    name: 'Göring Gambit',
+    description: "A Scotch Gambit where White offers a pawn after d4 exd4 with c3, gaining rapid development and a dangerous initiative.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Göring Gambit is an aggressive attacking system within the Scotch Game." },
+      { san: 'e5', commentary: "e5 — Black establishes a central pawn. The Scotch Game complex will arise after White's next moves." },
+      { san: 'Nf3', commentary: "Nf3 — developing with tempo. White is heading for the Scotch Game setup." },
+      { san: 'Nc6', commentary: "Nc6 — Black defends e5 while developing. White now plays d4, entering the Scotch Game." },
+      { san: 'd4', commentary: "d4 — the Scotch Game! White immediately challenges Black's center, aiming for rapid piece activity." },
+      { san: 'exd4', commentary: "exd4 — Black captures in the center. White could recapture with the knight (Scotch Game) but instead plays the Göring Gambit!" },
+      { san: 'c3', commentary: "c3 — the Göring Gambit! White offers a pawn for rapid development, similar to the Danish Gambit but in the Scotch Game context. If Black accepts with dxc3, White plays Nxc3 with all pieces developed and dangerous attacking chances. Named after Carl Theodor Göring who analyzed it extensively in the 1870s." },
+      { san: 'dxc3', commentary: "dxc3 — Black accepts! After Nxc3, White has a fully developed position with open lines and attacking chances. Black has the extra pawn but must defend carefully. White's pieces will quickly target f7 and control the center. The Göring Gambit leads to sharp, unbalanced play where White's initiative can be very dangerous." },
+    ]
+  },
+
+  {
+    id: 'hungarian-defense',
+    group: 'Open Games',
+    name: 'Hungarian Defense',
+    description: "Black develops the bishop to e7 rather than c5 in the Italian Game, choosing solidity over counterattacking chances.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn, leading to the Italian Game complex where Black will choose the solid Hungarian Defense." },
+      { san: 'e5', commentary: "e5 — Black occupies the center. The Italian Game complex begins." },
+      { san: 'Nf3', commentary: "Nf3 — developing with tempo. White prepares the Italian bishop to c4." },
+      { san: 'Nc6', commentary: "Nc6 — Black defends e5. After Bc4, Black has multiple choices — the solid Be7 (Hungarian) is one of them." },
+      { san: 'Bc4', commentary: "Bc4 — the Italian bishop takes aim at f7. Now Black must decide: the fighting Bc5 or Nf6, or the solid Hungarian Defense with Be7." },
+      { san: 'Be7', commentary: "Be7 — the Hungarian Defense! Black develops the bishop modestly, avoiding the sharp complications of Bc5 or Nf6. This solid but somewhat passive move was popular in the 19th century. Black accepts a slightly cramped position in exchange for a very solid structure with no immediate weaknesses." },
+      { san: 'd4', commentary: "d4 — White seizes the center! With Black's bishop passively placed on e7, White can immediately build a powerful central presence. This is the critical test of the Hungarian Defense." },
+      { san: 'd6', commentary: "d6 — Black solidifies the position. The Hungarian Defense leads to solid but passive positions for Black. While it avoids sharp theory, Black must be careful not to fall too far behind in the center and activity. A patient, strategic game lies ahead." },
+    ]
+  },
+
+  // Semi-Open new additions
+  {
+    id: 'sicilian-sveshnikov',
+    group: 'Semi-Open Games',
+    name: 'Sicilian Sveshnikov',
+    description: "Black plays e5 early to seize space and create dynamic imbalances, accepting a backward d6 pawn and the d5 outpost for powerful piece activity.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn, heading for one of the most dynamic and theoretically challenging Sicilian variations." },
+      { san: 'c5', commentary: "c5 — the Sicilian. Black fights for the d4 square asymmetrically, setting up the Sveshnikov's rich counterplay." },
+      { san: 'Nf3', commentary: "Nf3 — White develops and prepares d4. The Open Sicilian begins." },
+      { san: 'Nc6', commentary: "Nc6 — Black develops the knight. The Sveshnikov requires Nc6 early, supporting the coming e5 advance." },
+      { san: 'd4', commentary: "d4 — the critical pawn break. White opens the center and the Sicilian imbalance is created." },
+      { san: 'cxd4', commentary: "cxd4 — Black exchanges, opening the c-file. The characteristic Sicilian pawn structure emerges." },
+      { san: 'Nxd4', commentary: "Nxd4 — White centralizes the knight powerfully. Now Black plays Nf6 and after Nc3, the Sveshnikov's defining e5 thrust follows." },
+      { san: 'Nf6', commentary: "Nf6 — developing and attacking e4. After 5.Nc3, Black plays the defining move 5...e5! — the Sveshnikov! This bold advance accepts a backward d6 pawn and gives White the strong d5 outpost, but in return Black gets powerful piece activity and the e5 space. A favorite of Leko, Carlsen, and many modern elite players." },
+    ]
+  },
+
+  {
+    id: 'sicilian-kan',
+    group: 'Semi-Open Games',
+    name: 'Sicilian Kan',
+    description: "Black plays a6 to gain queenside flexibility, avoiding commitment to a specific pawn structure while maintaining maximum options.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Kan Sicilian (also called the Paulsen Variation) is one of Black's most flexible responses in the Sicilian." },
+      { san: 'c5', commentary: "c5 — the Sicilian begins. Black will reach the Kan by combining c5 with e6 and a6." },
+      { san: 'Nf3', commentary: "Nf3 — White develops and prepares d4 for the Open Sicilian." },
+      { san: 'e6', commentary: "e6 — Black's first defining move for the Kan. This solid pawn move prepares d5 and keeps the pawn structure flexible." },
+      { san: 'd4', commentary: "d4 — the central break. The Open Sicilian pawn structure is created after the exchange." },
+      { san: 'cxd4', commentary: "cxd4 — Black opens the c-file. The Sicilian imbalance is established." },
+      { san: 'Nxd4', commentary: "Nxd4 — White centralizes the knight. Now Black's choice of a6 will define the Kan." },
+      { san: 'a6', commentary: "a6 — the Kan Sicilian! This flexible pawn move prepares b5 and keeps all options open. Unlike the Najdorf (where d6 is already played), the Kan with e6 gives Black maximum flexibility — the position can transpose to Taimanov, Scheveningen, or remain as a pure Kan. A favorite of subtle positional players." },
+    ]
+  },
+
+  {
+    id: 'sicilian-taimanov',
+    group: 'Semi-Open Games',
+    name: 'Sicilian Taimanov',
+    description: "Black combines e6 and Nc6 for a flexible Sicilian setup that avoids the sharpest theory while maintaining solid counterplay.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Taimanov Sicilian (named after Soviet grandmaster Mark Taimanov) combines the flexibility of e6 with the development of Nc6." },
+      { san: 'c5', commentary: "c5 — the Sicilian begins. The Taimanov will combine c5, e6, and Nc6." },
+      { san: 'Nf3', commentary: "Nf3 — developing and preparing the d4 break." },
+      { san: 'e6', commentary: "e6 — Black prepares the Taimanov structure. The pawn on e6 supports d5 and keeps the position solid." },
+      { san: 'd4', commentary: "d4 — the central break. White opens the center and gains a strong initiative." },
+      { san: 'cxd4', commentary: "cxd4 — Black exchanges, opening the c-file for long-term queenside pressure." },
+      { san: 'Nxd4', commentary: "Nxd4 — White centralizes the knight on a dominant square. The Sicilian structure is established." },
+      { san: 'Nc6', commentary: "Nc6 — the Taimanov! Black develops the knight to c6, creating a solid and flexible position. Unlike the Najdorf or Dragon, the Taimanov avoids many of the sharpest theoretical battles. Black can develop on both wings, and the position can take many different forms. A favorite of players who want a rich game without extreme theoretical demands." },
+    ]
+  },
+
+  {
+    id: 'sicilian-accelerated-dragon',
+    group: 'Semi-Open Games',
+    name: 'Sicilian Accelerated Dragon',
+    description: "Black fianchettoes on g6 before playing d6, 'accelerating' the Dragon setup and avoiding the Yugoslav Attack.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Accelerated Dragon is Black's way of getting the Dragon bishop without allowing the Yugoslav Attack." },
+      { san: 'c5', commentary: "c5 — the Sicilian begins. The Accelerated Dragon will develop with g6 before d6." },
+      { san: 'Nf3', commentary: "Nf3 — White develops and prepares d4 for the Open Sicilian." },
+      { san: 'Nc6', commentary: "Nc6 — Black develops the knight. In the Accelerated Dragon, Nc6 precedes d6." },
+      { san: 'd4', commentary: "d4 — the central break creates the Open Sicilian structure." },
+      { san: 'cxd4', commentary: "cxd4 — Black exchanges, opening the c-file. The Sicilian imbalance is established." },
+      { san: 'Nxd4', commentary: "Nxd4 — White centralizes the knight. Now Black plays g6 to 'accelerate' the Dragon." },
+      { san: 'g6', commentary: "g6 — the Accelerated Dragon! Black prepares the fianchetto immediately, without playing d6 first. The key advantage: this move order avoids the Yugoslav Attack (since White's f3+Be3+Qd2+O-O-O setup requires Black to have played d6). The position is similar to the regular Dragon but with important differences — Black can play d5 in one move, often creating tactical shots that don't exist in the regular Dragon." },
+    ]
+  },
+
+  {
+    id: 'sicilian-alapin',
+    group: 'Semi-Open Games',
+    name: 'Sicilian Alapin',
+    description: "White plays c3 on move 2, avoiding Open Sicilian theory and preparing a strong center with d4.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Alapin Variation is a popular anti-Sicilian weapon that avoids the massive theory of the Open Sicilian." },
+      { san: 'c5', commentary: "c5 — the Sicilian Defense. Black fights for d4 asymmetrically, but White has a specific plan to avoid the main lines." },
+      { san: 'c3', commentary: "c3 — the Alapin Variation (named after Semyon Alapin)! White prepares d4 with pawn support, planning to build a strong center without playing Nf3 first. This avoids the Open Sicilian entirely. White will play d4 and after the exchange, have a supported central pawn." },
+      { san: 'd5', commentary: "d5 — the most principled response! Black immediately counter-attacks in the center. This is the most direct challenge — rather than allowing White to build a comfortable center, Black fights for d4 immediately with d5." },
+      { san: 'exd5', commentary: "exd5 — White accepts the central exchange. The position opens up dramatically." },
+      { san: 'Qxd5', commentary: "Qxd5 — Black recaptures with the queen, gaining central control. In the Alapin, this queen development is actually quite good — unlike in the Scandinavian, Black's queen on d5 is hard to attack immediately." },
+      { san: 'd4', commentary: "d4 — White builds the center. This is the whole point of c3 — a supported d4 pawn. The position is dynamic with open lines and piece activity." },
+      { san: 'Nf6', commentary: "Nf6 — Black develops actively and continues the center battle. The Alapin leads to original positions outside mainstream Sicilian theory. White has a solid center but Black has active pieces and counterplay. The resulting positions are rich and complex, a favorite weapon for players who want to fight for an advantage without memorizing massive amounts of Sicilian theory." },
+    ]
+  },
+
+  {
+    id: 'sicilian-smith-morra',
+    group: 'Semi-Open Games',
+    name: 'Smith-Morra Gambit',
+    description: "White sacrifices a pawn with d4 dxc3 Nxc3 for rapid development and a dangerous initiative against the Sicilian.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Smith-Morra Gambit is one of the most aggressive anti-Sicilian weapons, sacrificing a pawn for rapid development." },
+      { san: 'c5', commentary: "c5 — the Sicilian Defense. Black prepares to fight asymmetrically for d4, but White has a surprise in store." },
+      { san: 'd4', commentary: "d4 — White immediately challenges the center. The Smith-Morra begins with this aggressive pawn thrust." },
+      { san: 'cxd4', commentary: "cxd4 — Black accepts, opening the center. Now White offers a second pawn." },
+      { san: 'c3', commentary: "c3 — the Smith-Morra Gambit! White offers a second pawn to gain rapid development. Named after Pierre Morra (France) and Ken Smith (USA) who popularized it extensively. Black can accept with dxc3 or decline with various moves, but accepting leads to sharp, tactical battles." },
+      { san: 'dxc3', commentary: "dxc3 — Black accepts the gambit! Now White recaptures with the knight, gaining a massive development lead." },
+      { san: 'Nxc3', commentary: "Nxc3 — White recaptures and immediately has a fully developed knight on c3. With Bc4 and Nf3 coming, White will have tremendous piece activity while Black is still trying to develop. The Smith-Morra is a feared weapon at club level and has been used successfully even at grandmaster level." },
+      { san: 'Nc6', commentary: "Nc6 — Black develops the knight, fighting for central control. The battle is now a race: Black tries to consolidate with the extra pawn while White generates piece activity. White's compensation includes open files, active piece play, and the initiative. The resulting positions are complex and unbalanced — exactly what the gambit player wants." },
+    ]
+  },
+
+  {
+    id: 'sicilian-grand-prix',
+    group: 'Semi-Open Games',
+    name: 'Grand Prix Attack',
+    description: "White plays Nc3 and f4 against the Sicilian, aiming for a powerful kingside attack without the complexities of the Open Sicilian.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Grand Prix Attack is a popular and dangerous anti-Sicilian system, aiming for a direct kingside attack." },
+      { san: 'c5', commentary: "c5 — the Sicilian Defense. Black aims for counterplay, but White will bypass all Open Sicilian theory." },
+      { san: 'Nc3', commentary: "Nc3 — the Grand Prix Attack begins! White develops the knight before playing f4. This specific move order (avoiding Nf3 first) is essential — it prevents Black's ...d5 response from being effective, and prepares the f4 advance that defines the Grand Prix." },
+      { san: 'Nc6', commentary: "Nc6 — Black develops naturally, fighting for the center. The game is heading for the characteristic Grand Prix Attack pawn structure." },
+      { san: 'f4', commentary: "f4 — the Grand Prix Attack! White aggressively advances the f-pawn, gaining space on the kingside and preparing f5 or e5 advances. This system was heavily used on the British Grand Prix chess circuit in the 1980s, giving it its name. White aims for a direct kingside attack similar to the King's Gambit but with more solidity." },
+      { san: 'g6', commentary: "g6 — Black prepares the fianchetto, planning to meet the kingside attack with the powerful g7 bishop. This hypermodern response is the most active — the bishop on g7 will be a powerful defensive and counter-attacking piece." },
+      { san: 'Nf3', commentary: "Nf3 — White develops the knight and completes the setup. The Grand Prix Attack formation is taking shape: Nc3, f4, Nf3 with Bb5 or Be2 and castling to follow." },
+      { san: 'Bg7', commentary: "Bg7 — the Dragon bishop is in position! Black has a solid hypermodern setup. The game will be a classic battle: White's kingside attack (f4-f5, e5) against Black's counterplay along the long diagonal and queenside play. The Grand Prix Attack leads to rich, attacking chess." },
+    ]
+  },
+
+  {
+    id: 'sicilian-classical',
+    group: 'Semi-Open Games',
+    name: 'Sicilian Classical',
+    description: "Black plays Nc6 in the Open Sicilian after d6, aiming for a classical development with piece activity rather than pawn breaks.",
+    moves: [
+      { san: 'e4', commentary: "e4 — the King's Pawn. The Classical Sicilian is one of the oldest and most respected Sicilian variations." },
+      { san: 'c5', commentary: "c5 — the Sicilian begins. The Classical variation uses d6 and Nc6 for a solid, piece-oriented setup." },
+      { san: 'Nf3', commentary: "Nf3 — White develops and prepares d4 for the Open Sicilian." },
+      { san: 'd6', commentary: "d6 — preparing to develop Nf6 without allowing e5. This flexible move is used in both the Classical Sicilian and the Najdorf depending on the fifth move." },
+      { san: 'd4', commentary: "d4 — the central pawn break. White opens the center and gains the initiative." },
+      { san: 'cxd4', commentary: "cxd4 — Black exchanges, opening the c-file. The Sicilian pawn structure is established." },
+      { san: 'Nxd4', commentary: "Nxd4 — White centralizes the knight. Now Nc6 (rather than Najdorf's a6) defines the Classical." },
+      { san: 'Nc6', commentary: "Nc6 — the Classical Sicilian! Black develops the knight to its most natural square, fighting directly for control of the center. Unlike the Najdorf (a6) or Dragon (g6), the Classical focuses on piece development and central control. World Champions Spassky and Fischer both played the Classical extensively." },
+    ]
+  },
+
+  {
     id: 'catalan-opening',
     group: 'Indian Defenses',
     name: 'Catalan Opening',
