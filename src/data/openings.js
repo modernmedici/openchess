@@ -4654,5 +4654,437 @@ export const openings = [
         "commentary": "Be7 — Black develops the bishop and prepares to castle. The Closed Catalan is solid but slightly passive. White has excellent long-term pressure from the Bg2 bishop. The game will be a strategic battle where White gradually increases pressure while Black seeks counterplay."
       }
     ]
+  },
+  {
+    "id": "blackmar-diemer",
+    "group": "Closed Games",
+    "name": "Blackmar-Diemer Gambit",
+    "description": "White sacrifices a pawn after e4 dxe4 f3 for rapid development and a ferocious attack against Black's solid d5 setup.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Blackmar-Diemer Gambit is one of chess's most aggressive d4 openings, sacrificing a pawn for rapid development and attack."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "commentary": "d5 — Black meets the center with a center pawn. The BDG arises when White immediately attacks this pawn with e4."
+      },
+      {
+        "san": "e4",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "e4 — the Blackmar-Diemer begins! White immediately offers a pawn to open the position. This gambit transforms a Queen's Pawn opening into a wild tactical battle instantly."
+      },
+      {
+        "san": "dxe4",
+        "fen": "rnbqkbnr/ppp1pppp/8/8/3Pp3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+        "commentary": "dxe4 — Black accepts! The pawn center is liquidated and White will sacrifice another pawn with f3."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkbnr/ppp1pppp/8/8/3Pp3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+        "commentary": "Nc3 — White develops the knight, supporting the center and preparing f3."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4",
+        "commentary": "Nf6 — Black develops the knight to its best square, defending the e4 pawn."
+      },
+      {
+        "san": "f3",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/8/3Pp3/2N2P2/PPP3PP/R1BQKBNR b KQkq - 0 4",
+        "commentary": "f3 — the BDG sacrifice! White attacks the e4 pawn with f3, sacrificing this pawn for rapid development. After exf3, White plays Nxf3 and has fully developed pieces with open lines and attacking chances."
+      },
+      {
+        "san": "exf3",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/8/3P4/2N2p2/PPP3PP/R1BQKBNR w KQkq - 0 5",
+        "commentary": "exf3 — Black accepts the second pawn! White now plays Nxf3 with a completely open position and lead in development. The Blackmar-Diemer Gambit leads to some of the most tactical and entertaining games at club level. While objectively the compensation is questionable, White's practical attacking chances make it a feared weapon."
+      }
+    ]
+  },
+  {
+    "id": "veresov-attack",
+    "group": "Closed Games",
+    "name": "Veresov Attack",
+    "description": "White plays Nc3 and Bg5 early to pin Black's knight, creating early complications and avoiding mainstream Indian theory.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Veresov Attack (named after Soviet grandmaster Gavriil Veresov) is an aggressive sideline that creates immediate complications."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense. Black develops the knight, and White will immediately attack it with Nc3 and Bg5."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/2N5/PPP1PPPP/R1BQKBNR b KQkq - 2 2",
+        "commentary": "Nc3 — the Veresov! Rather than the standard c4 or Nf3, White develops the queen's knight first. This prepares Bg5 to pin the f6 knight immediately."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/2N5/PPP1PPPP/R1BQKBNR w KQkq - 0 3",
+        "commentary": "d5 — Black challenges the center, the most principled response. Black aims for a solid QGD-style position."
+      },
+      {
+        "san": "Bg5",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/3p2B1/3P4/2N5/PPP1PPPP/R2QKBNR b KQkq - 1 3",
+        "commentary": "Bg5 — the Veresov pin! White immediately pins the f6 knight. This creates early pressure and forces Black to make concrete decisions. The Veresov sidesteps the heavily analyzed Indian defenses and leads to original, less-explored territory."
+      },
+      {
+        "san": "Nbd7",
+        "fen": "r1bqkb1r/pppnpppp/5n2/3p2B1/3P4/2N5/PPP1PPPP/R2QKBNR w KQkq - 2 4",
+        "commentary": "Nbd7 — Black develops the knight from b8 to d7, preparing to support the Nf6 knight. This is one of the most solid responses to the Veresov."
+      },
+      {
+        "san": "Nf3",
+        "fen": "r1bqkb1r/pppnpppp/5n2/3p2B1/3P4/2N2N2/PPP1PPPP/R2QKB1R b KQkq - 3 4",
+        "commentary": "Nf3 — White develops the knight and maintains the pin pressure. The position is complex and original."
+      },
+      {
+        "san": "e6",
+        "fen": "r1bqkb1r/pppn1ppp/4pn2/3p2B1/3P4/2N2N2/PPP1PPPP/R2QKB1R w KQkq - 0 5",
+        "commentary": "e6 — Black solidifies the pawn structure and prepares to develop the f8 bishop. The Veresov Attack leads to rich middlegame play outside of mainstream theory. White typically tries to use piece pressure and attacking chances, while Black relies on solid development and central control."
+      }
+    ]
+  },
+  {
+    "id": "stonewall-attack",
+    "group": "Closed Games",
+    "name": "Stonewall Attack",
+    "description": "White builds the Stonewall formation with d4, e3, f4, Bd3, creating a solid attacking setup regardless of Black's responses.",
+    "moves": [
+      {
+        "san": "d4",
+        "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "d4 — the Queen's Pawn. The Stonewall Attack is White's version of the Dutch Defense — a systematic attacking setup."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "commentary": "d5 — Black meets the center with a center pawn. The Stonewall works regardless of Black's setup."
+      },
+      {
+        "san": "e3",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+        "commentary": "e3 — White builds the Stonewall! Rather than c4, White begins the systematic Stonewall formation. The e3-f4-d4 pawn triangle will be the backbone of White's position."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4P3/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+        "commentary": "Nf6 — Black develops the knight naturally."
+      },
+      {
+        "san": "Bd3",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/3BP3/PPP2PPP/RNBQK1NR b KQkq - 2 3",
+        "commentary": "Bd3 — the Stonewall bishop! On d3, the bishop is perfectly placed for the upcoming kingside attack, targeting the h7 pawn."
+      },
+      {
+        "san": "e6",
+        "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/3BP3/PPP2PPP/RNBQK1NR w KQkq - 0 4",
+        "commentary": "e6 — Black builds a solid structure, similar to the QGD."
+      },
+      {
+        "san": "f4",
+        "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P1P2/3BP3/PPP3PP/RNBQK1NR b KQkq - 0 4",
+        "commentary": "f4 — the Stonewall complete! White forms the rigid but powerful d4-e3-f4 pawn triangle. This controls the e5 square and prepares a kingside attack with Nf3, O-O, and eventually Ne5."
+      },
+      {
+        "san": "c5",
+        "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/3P1P2/3BP3/PPP3PP/RNBQK1NR w KQkq - 0 5",
+        "commentary": "c5 — Black challenges White's center. The most active response to the Stonewall. After dxc5 or c3, the game becomes dynamic. Black seeks queenside counterplay while White builds the kingside attack. A practical weapon that leads to rich middlegame play, often featuring piece sacrifices around the Black king."
+      }
+    ]
+  },
+  {
+    "id": "english-symmetrical",
+    "group": "Flank & Irregular",
+    "name": "English Symmetrical",
+    "description": "Both sides mirror each other with c4/c5 and fianchettoed bishops, creating a symmetric and deeply strategic position.",
+    "moves": [
+      {
+        "san": "c4",
+        "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "c4 — the English Opening. The Symmetrical English arises when Black mirrors White's c4 with c5."
+      },
+      {
+        "san": "c5",
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+        "commentary": "c5 — the Symmetrical English! Black mirrors White's pawn move, creating an immediate symmetric position. This is the most principled response to the English, leading to very rich strategic battles where small positional advantages are the key."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkbnr/pp1ppppp/8/2p5/2P5/2N5/PP1PPPPP/R1BQKBNR b KQkq - 1 2",
+        "commentary": "Nc3 — White develops the knight, supporting d4 and preparing to fight for the center."
+      },
+      {
+        "san": "Nc6",
+        "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 2 3",
+        "commentary": "Nc6 — Black mirrors the development symmetrically. The Symmetrical English is characterized by this mirror-like play."
+      },
+      {
+        "san": "g3",
+        "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/2P5/2N3P1/PP1PPP1P/R1BQKBNR b KQkq - 0 3",
+        "commentary": "g3 — White prepares the fianchetto. The Symmetrical English with g3 is the most popular setup, leading to the four-knights variant after Nf3 g6 Bg2 Bg7."
+      },
+      {
+        "san": "g6",
+        "fen": "r1bqkbnr/pp1ppp1p/2n3p1/2p5/2P5/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 4",
+        "commentary": "g6 — Black mirrors the fianchetto! Both sides will develop their bishops to g2 and g7, creating the classic Symmetrical English dragon-bishop battle."
+      },
+      {
+        "san": "Bg2",
+        "fen": "r1bqkbnr/pp1ppp1p/2n3p1/2p5/2P5/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 1 4",
+        "commentary": "Bg2 — White's bishop is in position on the long diagonal, controlling the center."
+      },
+      {
+        "san": "Bg7",
+        "fen": "r1bqk1nr/pp1pppbp/2n3p1/2p5/2P5/2N3P1/PP1PPPBP/R1BQK1NR w KQkq - 2 5",
+        "commentary": "Bg7 — Black's bishop mirrors White's! The Symmetrical English with both fianchettoed bishops leads to incredibly strategic and subtle positions. The game will be decided by small advantages in piece placement, pawn breaks (d4 for White, d5 for Black), and endgame technique. A favorite of sophisticated positional players."
+      }
+    ]
+  },
+  {
+    "id": "english-four-knights",
+    "group": "Flank & Irregular",
+    "name": "English Four Knights",
+    "description": "Both sides develop all four knights rapidly in the English Opening, creating a solid and rich strategic middlegame.",
+    "moves": [
+      {
+        "san": "c4",
+        "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "c4 — the English Opening. The Four Knights variation is a solid and principled response to the English."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — Black develops the knight, the most popular response to the English Opening."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2P5/2N5/PP1PPPPP/R1BQKBNR b KQkq - 2 2",
+        "commentary": "Nc3 — White develops the queen's knight to its best square."
+      },
+      {
+        "san": "Nc6",
+        "fen": "r1bqkb1r/pppppppp/2n2n2/8/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 3 3",
+        "commentary": "Nc6 — Black develops the second knight! Both sides are developing all four knights early, leading to the English Four Knights."
+      },
+      {
+        "san": "Nf3",
+        "fen": "r1bqkb1r/pppppppp/2n2n2/8/2P5/2N2N2/PP1PPPPP/R1BQKB1R b KQkq - 4 3",
+        "commentary": "Nf3 — White's second knight is developed. All four knights are now in play."
+      },
+      {
+        "san": "e5",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/2N2N2/PP1PPPPP/R1BQKB1R w KQkq - 0 4",
+        "commentary": "e5 — Black claims central space! This is the most ambitious and principled response — Black builds a strong e5 pawn supported by the knights."
+      },
+      {
+        "san": "e3",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/2N1PN2/PP1P1PPP/R1BQKB1R b KQkq - 0 4",
+        "commentary": "e3 — White solidifies the position and prepares Be2. White will castle quickly and fight for central control."
+      },
+      {
+        "san": "Be7",
+        "fen": "r1bqk2r/ppppbppp/2n2n2/4p3/2P5/2N1PN2/PP1P1PPP/R1BQKB1R w KQkq - 1 5",
+        "commentary": "Be7 — Black develops the bishop and prepares to castle. The English Four Knights leads to rich strategic battles with solid, maneuvering play. Both sides have active knights and solid structures. White will typically try to push d4 to challenge the center, while Black maintains the e5 pawn as a central anchor."
+      }
+    ]
+  },
+  {
+    "id": "english-kings-indian",
+    "group": "Flank & Irregular",
+    "name": "English vs King's Indian",
+    "description": "Black sets up the King's Indian structure against the English Opening, with both sides fianchettoing and competing for long diagonal control.",
+    "moves": [
+      {
+        "san": "c4",
+        "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "c4 — the English Opening. Black will respond with a King's Indian setup, creating a reversed flank structure."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 1 2",
+        "commentary": "Nf6 — the Indian Defense setup. Black will develop the KID structure against the English."
+      },
+      {
+        "san": "Nc3",
+        "fen": "rnbqkb1r/pppppppp/5n2/8/2P5/2N5/PP1PPPPP/R1BQKBNR b KQkq - 2 2",
+        "commentary": "Nc3 — White develops the knight, building the English setup."
+      },
+      {
+        "san": "g6",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 0 3",
+        "commentary": "g6 — the King's Indian fianchetto! Black will develop the bishop to g7, creating the same Dragon formation as in the KID."
+      },
+      {
+        "san": "g3",
+        "fen": "rnbqkb1r/pppppp1p/5np1/8/2P5/2N3P1/PP1PPP1P/R1BQKBNR b KQkq - 0 3",
+        "commentary": "g3 — White also fianchettoes! This leads to the battle of the two Dragon bishops on opposing long diagonals."
+      },
+      {
+        "san": "Bg7",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2P5/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 1 4",
+        "commentary": "Bg7 — the King's Indian Dragon bishop is in position, controlling the a1-h8 diagonal."
+      },
+      {
+        "san": "Bg2",
+        "fen": "rnbqk2r/ppppppbp/5np1/8/2P5/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 2 4",
+        "commentary": "Bg2 — White's bishop occupies the h1-a8 diagonal. Now both bishops control the center from opposite sides — a deep strategic battle for diagonal dominance."
+      },
+      {
+        "san": "O-O",
+        "fen": "rnbq1rk1/ppppppbp/5np1/8/2P5/2N3P1/PP1PPPBP/R1BQK1NR w KQ - 3 5",
+        "commentary": "O-O — Black castles, the king is safe. The English vs King's Indian leads to complex positional battles. White will typically play d4 to transpose into a King's Indian or keep the extra tempo with e4. Black has the same setup as in the KID but with colors reversed, which can lead to subtle differences in the subsequent play."
+      }
+    ]
+  },
+  {
+    "id": "kings-indian-attack",
+    "group": "Flank & Irregular",
+    "name": "King's Indian Attack",
+    "description": "White builds a flexible KIA setup with Nf3, g3, Bg2, and O-O, then expands with e4 regardless of Black's setup.",
+    "moves": [
+      {
+        "san": "Nf3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "commentary": "Nf3 — the King's Indian Attack begins! White develops the knight first, keeping the pawn structure flexible. The KIA is a system, not just an opening — it can be played against almost any Black setup."
+      },
+      {
+        "san": "d5",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+        "commentary": "d5 — Black claims central space. The KIA can be played against any Black setup, but the French/Sicilian formations are most common."
+      },
+      {
+        "san": "g3",
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+        "commentary": "g3 — White prepares the fianchetto. The KIA formation: Nf3, g3, Bg2, O-O, d3, Nbd2, and then e4 for the central push."
+      },
+      {
+        "san": "Nf6",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 1 3",
+        "commentary": "Nf6 — Black develops the knight, fighting for the center."
+      },
+      {
+        "san": "Bg2",
+        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 2 3",
+        "commentary": "Bg2 — the KIA bishop is in position. On g2, this bishop will be a powerful attacking piece once White plays e4 and the position opens up."
+      },
+      {
+        "san": "c5",
+        "fen": "rnbqkb1r/pp2pppp/5n2/2pp4/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 0 4",
+        "commentary": "c5 — Black builds a strong center with both c5 and d5. This is the Reversed King's Indian structure for Black."
+      },
+      {
+        "san": "O-O",
+        "fen": "rnbqkb1r/pp2pppp/5n2/2pp4/8/5NP1/PPPPPPBP/RNBQ1RK1 b kq - 1 4",
+        "commentary": "O-O — White castles quickly, the king is safe. The KIA formation is almost complete. After d3 and Nbd2, White will play e4, the central advance that defines the KIA attack."
+      },
+      {
+        "san": "Nc6",
+        "fen": "r1bqkb1r/pp2pppp/2n2n2/2pp4/8/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
+        "commentary": "Nc6 — Black develops the knight. The KIA vs Sicilian-type structure (c5 + Nc6) is one of the most common KIA set-ups. After d3 g6 Nbd2 Bg7 e4, the KIA is in full flow. Bobby Fischer used the KIA extensively in the 1960s, winning many brilliant attacking games. It remains popular at all levels today."
+      }
+    ]
+  },
+  {
+    "id": "nimzo-larsen",
+    "group": "Flank & Irregular",
+    "name": "Nimzo-Larsen Attack",
+    "description": "White opens with b3 and Bb2, creating long diagonal pressure and avoiding all standard theory.",
+    "moves": [
+      {
+        "san": "b3",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "b3 — the Nimzo-Larsen Attack (also called Larsen's Opening)! White immediately prepares to fianchetto the queen's bishop. This unorthodox first move was popularized by Danish grandmaster Bent Larsen and was also played by Nimzowitsch. White will develop Bb2 and aim to control the center from a distance."
+      },
+      {
+        "san": "e5",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+        "commentary": "e5 — Black claims the center! The most aggressive and principled response. By occupying e5, Black immediately fights for space and challenges White's hypermodern approach."
+      },
+      {
+        "san": "Bb2",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+        "commentary": "Bb2 — the Larsen bishop! On b2, the bishop controls the important a1-h8 diagonal. White will follow with e3, Nf3, and Be2, building a solid position with long-range piece pressure."
+      },
+      {
+        "san": "Nc6",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/8/1P6/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+        "commentary": "Nc6 — Black develops the knight, supporting e5 and fighting for central control."
+      },
+      {
+        "san": "e3",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/8/1P2P3/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
+        "commentary": "e3 — White solidifies the position and prepares to develop the kingside."
+      },
+      {
+        "san": "Nf6",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/8/1P2P3/PBPP1PPP/RN1QKBNR w KQkq - 1 4",
+        "commentary": "Nf6 — Black develops the second knight, attacking e4 (which doesn't exist here) and preparing to castle."
+      },
+      {
+        "san": "Nf3",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/8/1P2PN2/PBPP1PPP/RN1QKB1R b KQkq - 2 4",
+        "commentary": "Nf3 — White develops the knight and prepares to castle. The Nimzo-Larsen formation is solidifying."
+      },
+      {
+        "san": "e4",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/4p3/1P2PN2/PBPP1PPP/RN1QKB1R w KQkq - 0 5",
+        "commentary": "e4 — Black advances aggressively! The e-pawn pushes to e4, attacking the f3 knight and seizing space. Now White must decide: retreat the knight or find other plans? The Nimzo-Larsen Attack leads to rich, unorthodox positions where Black often has extra central space but White has the powerful Bb2 bishop. A favorite of players who want to avoid all mainstream theory."
+      }
+    ]
+  },
+  {
+    "id": "polish-opening",
+    "group": "Flank & Irregular",
+    "name": "Polish Opening",
+    "description": "White opens with b4, the Polish Opening (Orangutan), gaining queenside space and the long diagonal for the bishop.",
+    "moves": [
+      {
+        "san": "b4",
+        "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+        "commentary": "b4 — the Polish Opening! Also called the Orangutan (named after a 1924 game where Réti visited the Bronx Zoo before the game). White immediately seizes queenside space and prepares Bb2. This surprising first move has been used by world-class players including Tartakower, who championed it extensively."
+      },
+      {
+        "san": "e5",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+        "commentary": "e5 — the most fighting response! Black immediately occupies the center, refusing to let White gain space for free."
+      },
+      {
+        "san": "Bb2",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/1P6/8/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+        "commentary": "Bb2 — the Polish bishop! On b2, the bishop aims powerfully along the a1-h8 diagonal. White's idea is to pressure e5 and control the center from the flank."
+      },
+      {
+        "san": "Nc6",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+        "commentary": "Nc6 — Black develops the knight and supports e5. The position is now becoming complex as both sides fight for central control."
+      },
+      {
+        "san": "c4",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/1PP5/8/PB1PPPPP/RN1QKBNR b KQkq - 0 3",
+        "commentary": "c4 — White expands on the queenside! The Polish b4-Bb2-c4 combination creates a unique type of queenside pressure. White aims for a Catalan-like setup where the queenside pieces dominate."
+      },
+      {
+        "san": "Nf6",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/1PP5/8/PB1PPPPP/RN1QKBNR w KQkq - 1 4",
+        "commentary": "Nf6 — Black develops the kingside knight, preparing to castle and fight for the center."
+      },
+      {
+        "san": "e3",
+        "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/1PP5/4P3/PB1P1PPP/RN1QKBNR b KQkq - 0 4",
+        "commentary": "e3 — White solidifies the position and prepares Be2 for rapid castling. The Polish Opening is now transitioning into a more standard-looking position, though the b4 pawn gives White a unique queenside advantage."
+      },
+      {
+        "san": "d5",
+        "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/1PP5/4P3/PB1P1PPP/RN1QKBNR w KQkq - 0 5",
+        "commentary": "d5 — Black challenges the center! This counter-thrust creates immediate tension. After cxd5 Nxd5 or b5, the position is complex with both sides having their unique advantages. The Polish Opening leads to original, creative chess away from all mainstream theory — a favorite for players who want to fight without memorizing hundreds of moves."
+      }
+    ]
   }
 ]
